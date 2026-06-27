@@ -1,0 +1,32 @@
+CEN BibleMaps MapFirst Final v2 Report
+
+Inputs:
+- places-master.final.v1.json
+- place-map-links.bsk.final.v1.json
+- 성서공회 성경지도 url(고해상도).txt
+
+Principle:
+- All BMPI-extracted place labels must be searchable through places-master.
+- All place-map links must resolve to actual map URLs whenever BMPI map_id exists.
+- Grade is secondary and is not required for map search.
+
+Outputs:
+- places-master.final.v2.mapfirst.json
+- map-master.final.v1.json
+- place-map-links-master.final.v2.mapfirst-url.json
+- CSV QA files
+
+Counts:
+- Final places: 410
+- Place-map links: 764
+- Links with actual URL: 764
+- Links missing URL: 0
+- Map master records: 36
+- Places with at least one BSK URL: 300
+- Places pending map link: 110
+- Missing places created from links: 0
+
+Notes:
+- primary_url uses official bskorea.or.kr image URLs.
+- alternate_url stores high-resolution nkt_map URLs where provided.
+- preferred_url uses high-resolution alternatives only for selected high-value maps such as Jesus-era Palestine and Paul's journeys.

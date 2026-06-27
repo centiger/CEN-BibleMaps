@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>CEN BibleMaps v1.0</title>
+  <meta name="theme-color" content="#163a5f" />
+  <meta name="description" content="CEN BibleMaps - 성경 지명 지도 검색 PWA" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button id="backBtn" class="ghost-btn hidden" type="button" aria-label="뒤로가기">←</button>
+      <div>
+        <h1>CEN BibleMaps</h1>
+        <p>성경 지명을 먼저 찾고, 바로 지도로 확인합니다.</p>
+      </div>
+    </header>
+
+    <main id="app" class="view-home">
+      <section id="homeView" class="panel hero-panel">
+        <div class="hero-icon">🗺️</div>
+        <h2>성경지도 검색</h2>
+        <p class="lead">성경 지명·사건·인물을 입력하면 관련 장소와 지도를 찾아드립니다.</p>
+        <form id="searchForm" class="search-box">
+          <input id="searchInput" type="search" autocomplete="off" placeholder="예: 예루살렘, 갈릴리 바다, 하란, 바울" />
+          <button type="submit">검색</button>
+        </form>
+        <div class="quick-tags" aria-label="빠른 검색어">
+          <button type="button" data-query="예루살렘">예루살렘</button>
+          <button type="button" data-query="갈릴리 바다">갈릴리 바다</button>
+          <button type="button" data-query="하란">하란</button>
+          <button type="button" data-query="바울">바울</button>
+        </div>
+      </section>
+
+      <section id="resultsView" class="panel hidden">
+        <div class="section-head">
+          <div>
+            <h2>검색결과</h2>
+            <p id="resultMeta">검색어를 입력해 주세요.</p>
+          </div>
+          <button id="homeBtnFromResults" class="small-btn" type="button">처음으로</button>
+        </div>
+        <div id="resultsList" class="results-list"></div>
+      </section>
+
+      <section id="placeView" class="panel hidden">
+        <div id="placeCard" class="place-card"></div>
+      </section>
+    </main>
+
+    <footer class="footer-note">
+      <span>v1.0 Map First</span>
+      <span>대한성서공회 지도 우선</span>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
