@@ -89,6 +89,25 @@
       String(a.map_id||'').localeCompare(String(b.map_id||''), 'ko')
     );
   }
+  function trustedVisibleLinksForPlace(p) {
+    const base = sortedDirectLinksForPlace(p);
+    const name = norm(p?._name || p?.official_name || p?.canonical_name || '');
+    const aliasKeys = [name, ...arr(p?.aliases).map(norm), ...arr(p?.search_keywords).map(norm)].filter(Boolean);
+
+    // 1차: 지도 표기(map_labels)에 검색 지명/공식명/별칭이 실제로 들어간 링크만 신뢰
+    let visible = base.filter(l => {
+      const labels = arr(l.map_labels).map(norm).filter(Boolean);
+      return labels.some(lb => aliasKeys.some(k => lb === k || lb.includes(k) || k.includes(lb)));
+    });
+
+    // 2차: 범용 지도는 구체 지도가 하나라도 있으면 숨김
+    const genericTitle = l => /세계|경계|지파|왕국|제국|시대|팔레스타인/.test(String(l.map_title || ''));
+    const specific = visible.filter(l => !genericTitle(l));
+    if (specific.length) visible = specific;
+
+    // 3차: 과다 노출 방지. 상세 화면에도 최대 3개만 노출.
+    return visible.slice(0, 3);
+  }
   function addLinkIndex(link) {
     const pid = String(link.place_id || '').trim();
     if (pid) {
@@ -205,20 +224,20 @@
   }
   function openFirstMap(key) {
     const p = places.find(x => x._key === key);
-    const link = p && sortedDirectLinksForPlace(p)[0];
+    const link = p && trustedVisibleLinksForPlace(p)[0];
     if (link) openUrl(linkUrl(link));
   }
   function openMapByIndex(key, idx) {
     const p = places.find(x => x._key === key);
-    const list = p ? sortedDirectLinksForPlace(p) : [];
+    const list = p ? trustedVisibleLinksForPlace(p) : [];
     const link = list[Number(idx)];
     if (link) openUrl(linkUrl(link));
   }
 
-  function mapButtonsHtml(p, limit=40) {
-    const ls = sortedDirectLinksForPlace(p);
+  function mapButtonsHtml(p, limit=3) {
+    const ls = trustedVisibleLinksForPlace(p);
     if (!ls.length) {
-      return `<div class="map-empty">아직 직접 표기된 대한성서공회 지도는 없습니다.<br>대표지도는 자동으로 열지 않습니다.</div>`;
+      return `<div class="map-empty">해당 지명이 실제 표기된 지도만 표시합니다.<br>표기 확인이 안 된 지도는 숨겼습니다.</div>`;
     }
     return `<div class="map-list">${ls.slice(0,limit).map((l,i) => {
       const labels = uniq(arr(l.map_labels)).join(', ');
@@ -237,7 +256,7 @@
         <div>
           <h3 class="result-title">${esc(p._name)} ${grade}</h3>
           <p class="result-sub">${esc(eraText(p) || featureText(p) || '성경 지명')}</p>
-          <p class="count-line">연결 지도 ${p._mapCount}개</p>
+          <p class="count-line">표기 확인 지도 ${p._mapCount}개</p>
         </div>
       </div>
       <p class="result-desc">${esc(summaryText(p))}</p>
@@ -271,7 +290,7 @@
       <div>
         <h2>${esc(p._name)} ${grade}</h2>
         <p class="result-sub">${esc(eraText(p) || featureText(p) || '성경 지명')}</p>
-        <p class="count-line">대한성서공회 연결 지도 ${p._mapCount}개</p>
+        <p class="count-line">표기 확인 지도 ${p._mapCount}개</p>
       </div>
     </div>
     <div class="badge-row">${aliases.map(a => `<span class="badge">${esc(a)}</span>`).join('')}</div>
@@ -279,7 +298,7 @@
       <div class="info-box"><strong>한 줄 설명</strong><p>${esc(summaryText(p))}</p></div>
       <div class="info-box"><strong>지도에서 보는 의미</strong><p>${esc(p.place_meaning || p.biblical_places_note || '지도에서 위치와 주변 지명을 함께 확인하는 것이 핵심입니다.')}</p></div>
       <div class="info-box"><strong>주요 본문</strong><p>${esc(refsText(p) || '본문 연결 정보 없음')}</p></div>
-      <div class="info-box"><strong>관련지도</strong>${mapButtonsHtml(p)}<p class="map-note">지도보기는 해당 지명이 실제 표기된 지도만 열며, 가능한 경우 고해상도 지도를 우선합니다.</p></div>
+      <div class="info-box"><strong>관련지도</strong>${mapButtonsHtml(p)}<p class="map-note">해당 지명이 실제 표기된 지도만 최대 3개까지 보여줍니다.</p></div>
     </div>
     <div class="place-actions">
       ${p._mapCount ? `<button class="action-btn map-btn" type="button" data-action="first-map" data-key="${esc(p._key)}">🗺 지도보기</button>` : `<button class="action-btn disabled-map" type="button" disabled>지도 준비중</button>`}
@@ -305,6 +324,10 @@
       });
       links.forEach(addLinkIndex);
       places = mergePlaces(placesRaw).map((p, idx) => ({...p, _key: norm(p._name) || String(idx)}));
+      places = places.map(p => {
+        const visible = trustedVisibleLinksForPlace(p);
+        return { ...p, _links: visible, _mapCount: visible.length };
+      }).sort((a,b) => (b._mapCount-a._mapCount) || a._name.localeCompare(b._name,'ko'));
       window.CEN_BIBLEMAPS_DEBUG = { placesRaw: placesRaw.length, places: places.length, maps: mapMaster.length, links: links.length, linkedPlaces: new Set(links.map(l => l.place_id)).size };
       console.log('[CEN BibleMaps v1.0]', window.CEN_BIBLEMAPS_DEBUG);
       const stats = document.createElement('div');
