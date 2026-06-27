@@ -56,6 +56,39 @@
   function mapUrl(m) {
     return m?.preferred_url || m?.alternate_url || m?.primary_url || m?.official_url || '';
   }
+
+  // Hotfix #1: Map Trust
+  // 지도보기는 반드시 해당 지명이 실제 표기된 direct link만 사용하고,
+  // 여러 지도가 있으면 "범용 지도"보다 "구체 지도/고해상도 지도"를 우선한다.
+  function directLinks(ls) {
+    return arr(ls).filter(l => String(l.link_type || '') === 'direct_visible_on_bsk_map' && linkUrl(l));
+  }
+  function linkPriority(l, p) {
+    const name = norm(p?._name || p?.official_name || p?.canonical_name || '');
+    const labels = arr(l.map_labels).map(norm);
+    const title = norm(l.map_title || '');
+    let s = 0;
+
+    if (labels.some(x => x === name)) s += 1000;
+    else if (labels.some(x => x.includes(name) || name.includes(x))) s += 600;
+
+    if (l.alternate_url || String(l.preferred_url || '').includes('cms.ibep-prod.com')) s += 180;
+    if (title.includes(name)) s += 120;
+
+    // 더 구체적인 사건/여정 지도 우선
+    if (/바울|여행|선교|예수|예루살렘|엘리야|엘리사|여호수아|전투/.test(String(l.map_title || ''))) s += 90;
+
+    // 범용 지도는 뒤로 보낸다.
+    if (/세계|경계|지파|왕국|제국|시대|팔레스타인/.test(String(l.map_title || ''))) s -= 70;
+
+    return s;
+  }
+  function sortedDirectLinksForPlace(p) {
+    return directLinks(p?._links || []).sort((a,b) =>
+      linkPriority(b,p) - linkPriority(a,p) ||
+      String(a.map_id||'').localeCompare(String(b.map_id||''), 'ko')
+    );
+  }
   function addLinkIndex(link) {
     const pid = String(link.place_id || '').trim();
     if (pid) {
@@ -105,7 +138,7 @@
       }
     });
     return [...byKey.values()].map(p => {
-      const ls = linksForPlace(p);
+      const ls = directLinks(linksForPlace(p));
       p._links = ls;
       p._mapCount = ls.length;
       p._name = placeName(p);
@@ -172,19 +205,20 @@
   }
   function openFirstMap(key) {
     const p = places.find(x => x._key === key);
-    const link = p && p._links[0];
+    const link = p && sortedDirectLinksForPlace(p)[0];
     if (link) openUrl(linkUrl(link));
   }
   function openMapByIndex(key, idx) {
     const p = places.find(x => x._key === key);
-    const link = p && p._links[Number(idx)];
+    const list = p ? sortedDirectLinksForPlace(p) : [];
+    const link = list[Number(idx)];
     if (link) openUrl(linkUrl(link));
   }
 
   function mapButtonsHtml(p, limit=40) {
-    const ls = p._links || [];
+    const ls = sortedDirectLinksForPlace(p);
     if (!ls.length) {
-      return `<div class="map-empty">아직 직접 연결된 대한성서공회 지도는 없습니다.<br>이 장소는 pending-map-link 검토 대상입니다.</div>`;
+      return `<div class="map-empty">아직 직접 표기된 대한성서공회 지도는 없습니다.<br>대표지도는 자동으로 열지 않습니다.</div>`;
     }
     return `<div class="map-list">${ls.slice(0,limit).map((l,i) => {
       const labels = uniq(arr(l.map_labels)).join(', ');
@@ -245,7 +279,7 @@
       <div class="info-box"><strong>한 줄 설명</strong><p>${esc(summaryText(p))}</p></div>
       <div class="info-box"><strong>지도에서 보는 의미</strong><p>${esc(p.place_meaning || p.biblical_places_note || '지도에서 위치와 주변 지명을 함께 확인하는 것이 핵심입니다.')}</p></div>
       <div class="info-box"><strong>주요 본문</strong><p>${esc(refsText(p) || '본문 연결 정보 없음')}</p></div>
-      <div class="info-box"><strong>관련지도</strong>${mapButtonsHtml(p)}<p class="map-note">지도보기는 고해상도 URL이 있으면 자동으로 고해상도 지도를 열고, 없으면 대한성서공회 공식 gXX 지도를 엽니다.</p></div>
+      <div class="info-box"><strong>관련지도</strong>${mapButtonsHtml(p)}<p class="map-note">지도보기는 해당 지명이 실제 표기된 지도만 열며, 가능한 경우 고해상도 지도를 우선합니다.</p></div>
     </div>
     <div class="place-actions">
       ${p._mapCount ? `<button class="action-btn map-btn" type="button" data-action="first-map" data-key="${esc(p._key)}">🗺 지도보기</button>` : `<button class="action-btn disabled-map" type="button" disabled>지도 준비중</button>`}

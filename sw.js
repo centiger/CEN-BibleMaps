@@ -1,4 +1,4 @@
-const CACHE_NAME = "cen-biblemaps-release-v1-0-mapfirst";
+const CACHE_NAME = "cen-biblemaps-release-v1-0-maptrust-hotfix1";
 const ASSETS = [
   "./",
   "./index.html",
