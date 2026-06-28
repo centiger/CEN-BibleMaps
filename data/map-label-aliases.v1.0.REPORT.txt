@@ -1,0 +1,83 @@
+CEN BibleMaps map-label-aliases v1.0
+Source: places-master.json + BMPI-places-master.json
+
+records_total: 499
+searchable_records: 494
+bsk_visible_records: 397
+pending_external_or_google_records: 102
+unique_aliases_searchable: 1068
+alias_conflicts: 63
+not_found_in_places_master: 90
+non_place_excluded_records: 5
+
+Policy:
+- aliases field from places-master included.
+- BMPI official_name and map_labels included.
+- Parenthetical and spacing variants generated.
+- search_keywords excluded because they contain people/events/topics and can create false map matches.
+- route_note / people_region-like non-place labels are flagged or excluded from primary search.
+
+Top alias conflicts sample:
+- 가데스바네아: 가데스 바네아, 가데스바네아
+- 가데스 바네아: 가데스 바네아, 가데스바네아
+- 갈릴리호수: 갈릴리 바다, 갈릴리 호수
+- 갈릴리 바다: 갈릴리 바다, 갈릴리 호수
+- 갈릴리 호수: 갈릴리 바다, 갈릴리 호수
+- 갈멜: 갈멜, 갈멜산
+- 갈멜산: 갈멜 산, 갈멜산
+- 갈멜 산: 갈멜 산, 갈멜산
+- Carmel: 갈멜산, 담방
+- 그리심산: 그리심 산, 그리심산
+- 그리심 산: 그리심 산, 그리심산
+- 기브온: 기브온, 기브온 산당
+- Gibeon: 기브온, 기브온 산당
+- 길르앗: 길르앗, 미스바
+- Gilead: 길르앗, 미스바
+- 길보아산: 길보아 산, 길보아산
+- 길보아 산: 길보아 산, 길보아산
+- 느보산: 느보 산, 느보산
+- 느보 산: 느보 산, 느보산
+- 다드몰: 다드몰, 다드몰(팔미라)
+- 팔미라: 다드몰, 다드몰(팔미라)
+- 다드몰(팔미라): 다드몰, 다드몰(팔미라)
+- Elijah: 담방, 브엘세바
+- 동 므낫세: 동 므낫세, 므낫세
+- Dibon: 디본, 디브온
+- Rameses: 라암셋, 람셋
+- 마가의 다락방: 마가의 다락방, 예루살렘
+- Upper Room: 마가의 다락방, 예루살렘
+- Machpelah: 막벨라굴, 헤브론
+- 바벨론제국: 바벨론, 바벨론 제국
+- 바벨론 제국: 바벨론, 바벨론 제국
+- Bethsaida: 뱃새다, 벳새다
+- 벧산: 벧산, 벧스안
+- 벧스안: 벧산, 벧스안
+- 벧스안(벧산): 벧산, 벧스안
+- Egypt: 벧세메스, 숙곳, 애굽
+- Penuel: 브누엘, 브니엘
+- 사해: 사해, 염해
+- Hebron: 소고, 헤브론
+- 시내산: 시내 산, 시내산
+- 시내 산: 시내 산, 시내산
+- 시내 산으로: 시내 산, 시내산
+- 아람: 아람, 아람(수리아)
+- 수리아: 아람, 아람(수리아)
+- 아람(수리아): 아람, 아람(수리아)
+- 아르논강: 아르논 강, 아르논 골짜기
+- 아르논 강: 아르논 강, 아르논 골짜기
+- Ai: 아이, 아이 성
+- 앗수르제국: 앗수르, 앗수르 제국
+- 앗수르 제국: 앗수르, 앗수르 제국
+- 에발산: 에발 산, 에발산
+- 에발 산: 에발 산, 에발산
+- 예루살렘: 여부스, 예루살렘
+- Jebus: 여부스, 예루살렘
+- Jezreel: 예스르엘, 이스르엘
+- 요단강: 요단 강, 요단강
+- 요단 강: 요단 강, 요단강
+- 지중해: 지중해, 큰 바다
+- 지중 해: 지중해, 큰 바다
+- 큰 바다: 지중해, 큰 바다
+- 힛데겔: 티그리스 강(힛데겔), 힛데겔
+- 티그리스강: 티그리스 강(힛데겔), 힛데겔
+- 티그리스 강: 티그리스 강(힛데겔), 힛데겔

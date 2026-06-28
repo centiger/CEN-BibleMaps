@@ -22,6 +22,10 @@
   let mapById = new Map();
   let linksByPlaceId = new Map();
   let linksByName = new Map();
+  let aliasRecords = [];
+  let aliasRecordsByPlaceId = new Map();
+  let aliasRecordsByName = new Map();
+
 
   const arr = (v) => Array.isArray(v) ? v : (v ? [v] : []);
   const esc = (s) => String(s ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -37,6 +41,7 @@
     return String(x ?? '');
   }).join(' ');
   const uniq = (xs) => [...new Set(xs.filter(Boolean))];
+  const compact = (xs) => uniq(arr(xs).flatMap(x => arr(x)).map(x => String(x || '').trim()).filter(Boolean));
   const placeName = (p) => p.canonical_name || p.official_name || p.name || p.card_title || p.title || '';
   const featureText = (p) => text(p.feature_type || p.category || p.bmpi_feature_types || '');
   const eraText = (p) => text(p.era || p.eras || p.period || '');
@@ -120,6 +125,50 @@
       linksByName.get(n).push(link);
     }
   }
+
+  function addAliasRecordIndex(rec) {
+    if (!rec || rec.searchable === false) return;
+    const pid = String(rec.place_id || '').trim();
+    if (pid) {
+      if (!aliasRecordsByPlaceId.has(pid)) aliasRecordsByPlaceId.set(pid, []);
+      aliasRecordsByPlaceId.get(pid).push(rec);
+    }
+    const names = compact([rec.canonical_name, rec.official_name, rec.aliases, rec.bmpi_labels, rec.place_master_aliases]);
+    names.forEach(nm => {
+      const k = norm(nm);
+      if (!k) return;
+      if (!aliasRecordsByName.has(k)) aliasRecordsByName.set(k, []);
+      aliasRecordsByName.get(k).push(rec);
+    });
+  }
+
+  function aliasRecordsForPlace(p) {
+    const ids = arr(p._ids || p.id).map(String);
+    let out = [];
+    ids.forEach(id => out.push(...(aliasRecordsByPlaceId.get(id) || [])));
+    const keys = [placeName(p), ...(arr(p.aliases)), ...(arr(p.bmpi_map_labels))].map(norm).filter(Boolean);
+    keys.forEach(k => out.push(...(aliasRecordsByName.get(k) || [])));
+    const seen = new Set();
+    return out.filter(r => {
+      const key = [r.place_id || '', r.canonical_name || '', compact([r.aliases, r.bmpi_labels]).join('/')].join('|');
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
+  function bmpiSearchTermsForPlace(p, ls) {
+    const aliasRecs = aliasRecordsForPlace(p);
+    return compact([
+      placeName(p),
+      p.canonical_name,
+      p.official_name,
+      p.bmpi_map_labels,
+      ls.map(l => [l.official_name, l.map_labels]),
+      aliasRecs.map(r => [r.canonical_name, r.aliases, r.bmpi_labels, r.place_master_aliases])
+    ]);
+  }
+
   function linksForPlace(p) {
     const ids = arr(p._ids || p.id).map(String);
     let out = [];
@@ -161,35 +210,24 @@
       p._links = ls;
       p._mapCount = ls.length;
       p._name = placeName(p);
-      p._hay = [
-        p._name, p.aliases, p.search_keywords, p.related_people, p.related_events,
-        p.summary, p.card_subtitle, p.card_body, p.place_meaning, p.biblical_places_note,
-        p.era, p.location, p.modern_location, p.bible_refs,
-        ls.map(l => [l.map_title, l.map_labels, l.map_id])
-      ].map(text).join(' ');
+      p._bmpiSearchTerms = bmpiSearchTermsForPlace(p, ls);
+      p._bmpiSearchText = p._bmpiSearchTerms.map(text).join(' ');
       return p;
     }).sort((a,b) => (b._mapCount-a._mapCount) || a._name.localeCompare(b._name,'ko'));
   }
 
   function score(p, q0) {
     const q = norm(q0);
-    const n = norm(p._name);
-    const h = norm(p._hay);
+    if (!q || !p._mapCount) return 0;
+    const terms = compact(p._bmpiSearchTerms || []);
     let s = 0;
-    if (!q) return 0;
-    if (n === q) s += 1200;
-    else if (n.includes(q) || q.includes(n)) s += 600;
-    arr(p.aliases).concat(arr(p.search_keywords)).forEach(k => {
-      const nk = norm(k);
-      if (!nk) return;
-      if (nk === q) s += 900;
-      else if (nk.includes(q) || q.includes(nk)) s += 300;
+    terms.forEach(t => {
+      const nt = norm(t);
+      if (!nt) return;
+      if (nt === q) s += 1200;
+      else if (nt.includes(q) || q.includes(nt)) s += 420;
     });
-    if (h.includes(q)) s += 120;
     s += Math.min(p._mapCount, 10) * 8;
-    if (p.grade === 'SA') s += 45;
-    else if (p.grade === 'A') s += 30;
-    else if (p.grade === 'B') s += 15;
     return s;
   }
 
@@ -283,7 +321,7 @@
     const p = places.find(x => x._key === key);
     if (!p) return;
     state.selectedKey = key;
-    const aliases = uniq([...(arr(p.aliases)), ...(arr(p.search_keywords))]).slice(0, 14);
+    const aliases = compact(p._bmpiSearchTerms || []).filter(a => norm(a) !== norm(p._name)).slice(0, 14);
     const grade = gradeText(p) ? `<span class="grade-pill">${esc(gradeText(p))}</span>` : '';
     els.placeCard.innerHTML = `<div class="place-title-row">
       <div class="emoji">📍</div>
@@ -309,14 +347,17 @@
 
   async function init() {
     try {
-      const [pData, mData, lData] = await Promise.all([
+      const [pData, mData, lData, aData] = await Promise.all([
         loadJson('./data/places-master.json'),
         loadJson('./data/map-master.json'),
-        loadJson('./data/place-map-links-master.json')
+        loadJson('./data/place-map-links-master.json'),
+        loadJson('./data/map-label-aliases.json')
       ]);
       placesRaw = Array.isArray(pData) ? pData : (pData.places || []);
       mapMaster = Array.isArray(mData) ? mData : (mData.maps || []);
       links = Array.isArray(lData) ? lData : (lData.links || []);
+      aliasRecords = Array.isArray(aData) ? aData : (aData.records || aData.aliases || []);
+      aliasRecords.forEach(addAliasRecordIndex);
       mapById = new Map(mapMaster.map(m => [String(m.map_id || m.id || '').trim(), m]));
       links = links.map(l => {
         const m = mapById.get(String(l.map_id || '').trim());
@@ -328,11 +369,11 @@
         const visible = trustedVisibleLinksForPlace(p);
         return { ...p, _links: visible, _mapCount: visible.length };
       }).sort((a,b) => (b._mapCount-a._mapCount) || a._name.localeCompare(b._name,'ko'));
-      window.CEN_BIBLEMAPS_DEBUG = { placesRaw: placesRaw.length, places: places.length, maps: mapMaster.length, links: links.length, linkedPlaces: new Set(links.map(l => l.place_id)).size };
+      window.CEN_BIBLEMAPS_DEBUG = { mode: 'BMPI keyword only', placesRaw: placesRaw.length, places: places.length, maps: mapMaster.length, links: links.length, aliases: aliasRecords.length, linkedPlaces: new Set(links.map(l => l.place_id)).size };
       console.log('[CEN BibleMaps v1.0]', window.CEN_BIBLEMAPS_DEBUG);
       const stats = document.createElement('div');
       stats.className = 'search-stats';
-      stats.textContent = `장소 ${placesRaw.length}개 · 지도 36개 · 지도링크 ${links.length}개`;
+      stats.textContent = `BMPI 지명 검색 · 지도 36개 · 직접링크 ${links.length}개 · 별칭 ${aliasRecords.length}개`;
       document.querySelector('.hero-panel')?.appendChild(stats);
     } catch (e) {
       console.error(e);

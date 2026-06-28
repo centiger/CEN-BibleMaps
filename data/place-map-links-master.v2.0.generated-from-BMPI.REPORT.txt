@@ -1,0 +1,22 @@
+CEN BibleMaps place-map-links 재생성 리포트
+
+기준 파일: BMPI-places-master.json
+생성 파일: place-map-links-master.v2.0.generated-from-BMPI.json
+
+input_unique_official_names: 395
+generated_link_count: 763
+generated_unique_official_names: 316
+generated_bmpi_map_count: 31
+excluded_record_count: 6
+unmatched_place_id_count: 0
+
+제외 기준: route_note, people_region, route_destination, route_direction, orientation, diagram_area
+제외 목록:
+- 가나안 첫 공격 | labels=['첫 번째 가나안 공격(수 2장~8:29)'] | maps=['BMPI-M007'] | types=['route_note']
+- 남부 왕들의 동맹 격파 | labels=['여호수아가 남쪽 왕들의 동맹을 무찌르다(9:3-10:43)'] | maps=['BMPI-M007'] | types=['route_note']
+- 룻 | labels=['롯(루딤)'] | maps=['BMPI-M001'] | types=['people_region']
+- 북부 정복 | labels=['여호수아의 북쪽 정복(11:1-15)'] | maps=['BMPI-M007'] | types=['route_note']
+- 시내 산 | labels=['시내 산으로'] | maps=['BMPI-M014'] | types=['route_destination']
+- 정탐꾼의 길 | labels=['모세가 보낸 정탐꾼'] | maps=['BMPI-M003'] | types=['route_note']
+
+결론: 기존 place-map-links 수동 누적본 대신, BMPI-places-master 기반 자동생성본을 사용 권장.
