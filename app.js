@@ -17,7 +17,9 @@
     qaHomeBtn: $('#qaHomeBtn'),
     qaSearchInput: $('#qaSearchInput'),
     qaMeta: $('#qaMeta'),
-    qaList: $('#qaList')
+    qaList: $('#qaList'),
+    qaExportBtn: $('#qaExportBtn'),
+    qaClearBtn: $('#qaClearBtn')
   };
 
   const state = { view: 'home', query: '', selectedKey: null, qaFilter: 'all', qaQuery: '', lastListView: 'results' };
@@ -31,7 +33,8 @@
   let aliasRecords = [];
   let aliasRecordsByPlaceId = new Map();
   let aliasRecordsByName = new Map();
-
+  const QA_STORAGE_KEY = 'cen-biblemaps-qa-results-v1';
+  let qaResults = {};
 
   const arr = (v) => Array.isArray(v) ? v : (v ? [v] : []);
   const esc = (s) => String(s ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -48,6 +51,74 @@
   }).join(' ');
   const uniq = (xs) => [...new Set(xs.filter(Boolean))];
   const compact = (xs) => uniq(arr(xs).flatMap(x => arr(x)).map(x => String(x || '').trim()).filter(Boolean));
+  const qaStatusMeta = {
+    unchecked: { label:'미확인', icon:'⚪', cls:'unchecked' },
+    ok: { label:'이상무', icon:'🟢', cls:'ok' },
+    map_error: { label:'지도오류', icon:'🔴', cls:'error' },
+    no_label: { label:'지명없음', icon:'🟠', cls:'warning' },
+    search_error: { label:'검색오류', icon:'🟣', cls:'search' },
+    other: { label:'기타', icon:'⚫', cls:'other' }
+  };
+  function loadQaResults() {
+    try { qaResults = JSON.parse(localStorage.getItem(QA_STORAGE_KEY) || '{}') || {}; }
+    catch { qaResults = {}; }
+  }
+  function saveQaResults() {
+    localStorage.setItem(QA_STORAGE_KEY, JSON.stringify(qaResults));
+  }
+  function qaIdForPlace(p) {
+    return String((arr(p._ids)[0] || p.id || p._key || p._name || '')).trim() || p._key;
+  }
+  function qaRecordForPlace(p) {
+    return qaResults[qaIdForPlace(p)] || { status:'unchecked', memo:'', updated_at:'' };
+  }
+  function setQaStatus(key, status) {
+    const p = places.find(x => x._key === key);
+    if (!p) return;
+    const id = qaIdForPlace(p);
+    const prev = qaResults[id] || {};
+    qaResults[id] = {
+      place_id: id,
+      canonical_name: p._name,
+      qa_kind: qaKindForPlace(p),
+      status,
+      memo: prev.memo || '',
+      updated_at: new Date().toISOString()
+    };
+    saveQaResults();
+    renderQaList();
+  }
+  function clearQaResults() {
+    if (!confirm('QA 체크 결과를 모두 삭제할까요?')) return;
+    qaResults = {};
+    saveQaResults();
+    renderQaList();
+  }
+  function exportQaResults() {
+    const now = new Date();
+    const stamp = now.toISOString().slice(0,19).replace(/[-:T]/g,'');
+    const rows = Object.values(qaResults);
+    const summary = rows.reduce((acc,r) => { acc[r.status || 'unchecked'] = (acc[r.status || 'unchecked'] || 0) + 1; return acc; }, {});
+    const payload = {
+      project: 'CEN BibleMaps',
+      dataset: 'QA results from PWA localStorage',
+      version: '1.3.3',
+      exported_at: now.toISOString(),
+      storage_key: QA_STORAGE_KEY,
+      total_places: places.length,
+      checked_count: rows.filter(r => r.status && r.status !== 'unchecked').length,
+      summary,
+      results: rows.sort((a,b) => String(a.canonical_name||'').localeCompare(String(b.canonical_name||''),'ko'))
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], {type:'application/json'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = `qa-results-${stamp}.json`;
+    document.body.appendChild(a);
+    a.click();
+    URL.revokeObjectURL(a.href);
+    a.remove();
+  }
   const placeName = (p) => p.canonical_name || p.official_name || p.name || p.card_title || p.title || '';
   const featureText = (p) => text(p.feature_type || p.category || p.bmpi_feature_types || '');
   const eraText = (p) => text(p.era || p.eras || p.period || '');
@@ -343,7 +414,10 @@
       acc[qaKindForPlace(p)] = (acc[qaKindForPlace(p)] || 0) + 1;
       return acc;
     }, {});
-    els.qaMeta.textContent = `표시 ${rows.length}개 / 전체 ${places.length}개 · BMPI ${counts.bmpi||0} · 외부 ${counts.external||0} · Google ${counts.google||0} · 없음 ${counts.none||0}`;
+    const checked = Object.values(qaResults).filter(r => r.status && r.status !== 'unchecked').length;
+    const ok = Object.values(qaResults).filter(r => r.status === 'ok').length;
+    const errors = Object.values(qaResults).filter(r => ['map_error','no_label','search_error','other'].includes(r.status)).length;
+    els.qaMeta.textContent = `표시 ${rows.length}개 / 전체 ${places.length}개 · 확인 ${checked} · 이상무 ${ok} · 오류 ${errors} · BMPI ${counts.bmpi||0} · 외부 ${counts.external||0} · Google ${counts.google||0} · 없음 ${counts.none||0}`;
     if (!rows.length) {
       els.qaList.innerHTML = `<article class="result-card"><h3 class="result-title">표시할 지명이 없습니다.</h3></article>`;
       return;
@@ -352,7 +426,9 @@
       const first = trustedVisibleLinksForPlace(p)[0];
       const mapTitle = first ? (first.map_title || first.map_id || '') : '지도 없음';
       const kind = p._qaKind;
-      return `<article class="qa-row" data-key="${esc(p._key)}">
+      const rec = qaRecordForPlace(p);
+      const meta = qaStatusMeta[rec.status || 'unchecked'] || qaStatusMeta.unchecked;
+      return `<article class="qa-row qa-mark-${meta.cls}" data-key="${esc(p._key)}">
         <button type="button" class="qa-main" data-action="qa-detail" data-key="${esc(p._key)}">
           <span class="qa-no">${i+1}</span>
           <span class="qa-name">${esc(p._name)}</span>
@@ -363,6 +439,12 @@
           ${first ? `<button type="button" class="qa-mini map" data-action="qa-map" data-key="${esc(p._key)}">지도</button>` : `<button type="button" class="qa-mini disabled" disabled>없음</button>`}
           <button type="button" class="qa-mini" data-action="qa-detail" data-key="${esc(p._key)}">상세</button>
         </div>
+        <div class="qa-checks" aria-label="QA 체크">
+          <button type="button" class="qa-check ${rec.status==='ok'?'active':''}" data-action="qa-status" data-status="ok" data-key="${esc(p._key)}">🟢 이상무</button>
+          <button type="button" class="qa-check ${rec.status==='map_error'?'active':''}" data-action="qa-status" data-status="map_error" data-key="${esc(p._key)}">🔴 연결오류</button>
+          <button type="button" class="qa-check ${rec.status==='no_label'?'active':''}" data-action="qa-status" data-status="no_label" data-key="${esc(p._key)}">🟠 지명없음</button>
+        </div>
+        <div class="qa-current">${meta.icon} ${meta.label}${rec.updated_at ? ` · ${new Date(rec.updated_at).toLocaleString('ko-KR', {month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit'})}` : ''}</div>
       </article>`;
     }).join('');
   }
@@ -436,6 +518,7 @@
   }
 
   async function init() {
+    loadQaResults();
     try {
       const [pData, mData, lData, aData] = await Promise.all([
         loadJson('./data/places-master.json'),
@@ -459,8 +542,8 @@
         const visible = trustedVisibleLinksForPlace(p);
         return { ...p, _links: visible, _mapCount: visible.length };
       }).sort((a,b) => (b._mapCount-a._mapCount) || a._name.localeCompare(b._name,'ko'));
-      window.CEN_BIBLEMAPS_DEBUG = { mode: 'BMPI authority QA + external + Google fallback v1.3', placesRaw: placesRaw.length, places: places.length, maps: mapMaster.length, links: links.length, aliases: aliasRecords.length, linkedPlaces: new Set(links.map(l => l.place_id)).size };
-      console.log('[CEN BibleMaps v1.3.2-QA]', window.CEN_BIBLEMAPS_DEBUG);
+      window.CEN_BIBLEMAPS_DEBUG = { mode: 'BMPI authority QA + external + Google fallback + localStorage QA results v1.3.3', placesRaw: placesRaw.length, places: places.length, maps: mapMaster.length, links: links.length, aliases: aliasRecords.length, linkedPlaces: new Set(links.map(l => l.place_id)).size };
+      console.log('[CEN BibleMaps v1.3.3-QA-Results]', window.CEN_BIBLEMAPS_DEBUG);
       const stats = document.createElement('div');
       stats.className = 'search-stats';
       stats.textContent = `BMPI QA + QA Mode · 링크 ${links.length}개 · 별칭 ${aliasRecords.length}개`;
@@ -497,6 +580,8 @@
   els.homeBtnFromResults.addEventListener('click', goHome);
   els.qaModeBtn?.addEventListener('click', openQaMode);
   els.qaHomeBtn?.addEventListener('click', goHome);
+  els.qaExportBtn?.addEventListener('click', exportQaResults);
+  els.qaClearBtn?.addEventListener('click', clearQaResults);
   els.qaSearchInput?.addEventListener('input', e => {
     state.qaQuery = e.target.value || '';
     renderQaList();
@@ -511,6 +596,7 @@
     if (!b) return;
     if (b.dataset.action === 'qa-map') openFirstMap(b.dataset.key);
     if (b.dataset.action === 'qa-detail') renderPlace(b.dataset.key);
+    if (b.dataset.action === 'qa-status') setQaStatus(b.dataset.key, b.dataset.status);
   });
   els.backBtn.addEventListener('click', () => {
     if (state.view === 'place') show(state.lastListView || 'results');

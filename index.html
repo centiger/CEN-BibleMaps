@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>CEN BibleMaps QA v1.3.2</title>
+  <title>CEN BibleMaps QA v1.3.3</title>
   <meta name="theme-color" content="#163a5f" />
   <meta name="description" content="CEN BibleMaps - 성경 지명 지도 검색 PWA" />
   <link rel="manifest" href="manifest.webmanifest" />
@@ -72,13 +72,17 @@
             <button type="button" class="qa-filter" data-qa-filter="google">Google</button>
             <button type="button" class="qa-filter" data-qa-filter="none">없음</button>
           </div>
+          <div class="qa-export-row">
+            <button id="qaExportBtn" type="button" class="qa-export-btn">📤 QA 결과 내보내기</button>
+            <button id="qaClearBtn" type="button" class="qa-clear-btn">🧹 체크 초기화</button>
+          </div>
         </div>
         <div id="qaList" class="qa-list"></div>
       </section>
     </main>
 
     <footer class="footer-note">
-      <span>v1.3.2 QA Mode</span>
+      <span>v1.3.3 QA Results</span>
       <span>대한성서공회 지도 우선</span>
     </footer>
   </div>
