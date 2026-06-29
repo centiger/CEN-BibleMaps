@@ -1,0 +1,1458 @@
+{
+  "project": "CEN BibleMaps",
+  "dataset": "external map links user 0629",
+  "source_file": "작업_places-not-in-BMPI._0629.xlsx",
+  "count": 58,
+  "links": [
+    {
+      "place_id": "P016",
+      "official_name": "막벨라굴",
+      "map_id": "EXT-USER-0629-P016",
+      "map_labels": [
+        "막벨라굴"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 막벨라굴",
+      "map_url": "https://m.blog.naver.com/shyunya/40170890292?view=img_3",
+      "primary_url": "https://m.blog.naver.com/shyunya/40170890292?view=img_3",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/shyunya/40170890292?view=img_3",
+      "preferred_url": "https://m.blog.naver.com/shyunya/40170890292?view=img_3",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P017",
+      "official_name": "마므레",
+      "map_id": "EXT-USER-0629-P017",
+      "map_labels": [
+        "마므레"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 마므레",
+      "map_url": "https://m.blog.naver.com/dkramy/221894781189?view=img_1",
+      "primary_url": "https://m.blog.naver.com/dkramy/221894781189?view=img_1",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/dkramy/221894781189?view=img_1",
+      "preferred_url": "https://m.blog.naver.com/dkramy/221894781189?view=img_1",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P018",
+      "official_name": "브니엘",
+      "map_id": "EXT-USER-0629-P018",
+      "map_labels": [
+        "브니엘"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 브니엘",
+      "map_url": "https://m.blog.naver.com/dkramy/221949677320?view=img_1",
+      "primary_url": "https://m.blog.naver.com/dkramy/221949677320?view=img_1",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/dkramy/221949677320?view=img_1",
+      "preferred_url": "https://m.blog.naver.com/dkramy/221949677320?view=img_1",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P019",
+      "official_name": "브엘라해로이",
+      "map_id": "EXT-USER-0629-P019",
+      "map_labels": [
+        "브엘라해로이"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 브엘라해로이",
+      "map_url": "https://m.blog.naver.com/chfather/220879776781?view=img_2",
+      "primary_url": "https://m.blog.naver.com/chfather/220879776781?view=img_2",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/chfather/220879776781?view=img_2",
+      "preferred_url": "https://m.blog.naver.com/chfather/220879776781?view=img_2",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P020",
+      "official_name": "모리아산",
+      "map_id": "EXT-USER-0629-P020",
+      "map_labels": [
+        "모리아산"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 모리아산",
+      "map_url": "https://m.blog.naver.com/jskang4u/222481586201?view=img_6",
+      "primary_url": "https://m.blog.naver.com/jskang4u/222481586201?view=img_6",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/jskang4u/222481586201?view=img_6",
+      "preferred_url": "https://m.blog.naver.com/jskang4u/222481586201?view=img_6",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P022",
+      "official_name": "람셋",
+      "map_id": "EXT-USER-0629-P022",
+      "map_labels": [
+        "람셋"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 람셋",
+      "map_url": "https://m.blog.naver.com/sjk2100/222254468154?view=img_1",
+      "primary_url": "https://m.blog.naver.com/sjk2100/222254468154?view=img_1",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/sjk2100/222254468154?view=img_1",
+      "preferred_url": "https://m.blog.naver.com/sjk2100/222254468154?view=img_1",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P024",
+      "official_name": "에담",
+      "map_id": "EXT-USER-0629-P024",
+      "map_labels": [
+        "에담"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 에담",
+      "map_url": "https://m.blog.naver.com/samhoung/222093085004?view=img_1",
+      "primary_url": "https://m.blog.naver.com/samhoung/222093085004?view=img_1",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/samhoung/222093085004?view=img_1",
+      "preferred_url": "https://m.blog.naver.com/samhoung/222093085004?view=img_1",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P026",
+      "official_name": "마라",
+      "map_id": "EXT-USER-0629-P026",
+      "map_labels": [
+        "마라"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 마라",
+      "map_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQmmq-MEc24aLxvNLrCJpmnNaD-XwBXlen2qDSLIaGgBQo9VFbTmNXuwNW_ixf-kTqD6rYu-UmjosB-TjuBqhj3egk9MpEarFswOwXg8Cs8X8o8PGzVI-lpJ4LBmbs02b9uFnqIK1SOHf/s1600/%25EC%25B6%259C%25EC%2595%25A0%25EA%25B5%25BD+%25EA%25B2%25BD%25EB%25A1%259C.jpg",
+      "primary_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQmmq-MEc24aLxvNLrCJpmnNaD-XwBXlen2qDSLIaGgBQo9VFbTmNXuwNW_ixf-kTqD6rYu-UmjosB-TjuBqhj3egk9MpEarFswOwXg8Cs8X8o8PGzVI-lpJ4LBmbs02b9uFnqIK1SOHf/s1600/%25EC%25B6%259C%25EC%2595%25A0%25EA%25B5%25BD+%25EA%25B2%25BD%25EB%25A1%259C.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQmmq-MEc24aLxvNLrCJpmnNaD-XwBXlen2qDSLIaGgBQo9VFbTmNXuwNW_ixf-kTqD6rYu-UmjosB-TjuBqhj3egk9MpEarFswOwXg8Cs8X8o8PGzVI-lpJ4LBmbs02b9uFnqIK1SOHf/s1600/%25EC%25B6%259C%25EC%2595%25A0%25EA%25B5%25BD+%25EA%25B2%25BD%25EB%25A1%259C.jpg",
+      "preferred_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQmmq-MEc24aLxvNLrCJpmnNaD-XwBXlen2qDSLIaGgBQo9VFbTmNXuwNW_ixf-kTqD6rYu-UmjosB-TjuBqhj3egk9MpEarFswOwXg8Cs8X8o8PGzVI-lpJ4LBmbs02b9uFnqIK1SOHf/s1600/%25EC%25B6%259C%25EC%2595%25A0%25EA%25B5%25BD+%25EA%25B2%25BD%25EB%25A1%259C.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P027",
+      "official_name": "엘림",
+      "map_id": "EXT-USER-0629-P027",
+      "map_labels": [
+        "엘림"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 엘림",
+      "map_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQmmq-MEc24aLxvNLrCJpmnNaD-XwBXlen2qDSLIaGgBQo9VFbTmNXuwNW_ixf-kTqD6rYu-UmjosB-TjuBqhj3egk9MpEarFswOwXg8Cs8X8o8PGzVI-lpJ4LBmbs02b9uFnqIK1SOHf/s1600/%25EC%25B6%259C%25EC%2595%25A0%25EA%25B5%25BD+%25EA%25B2%25BD%25EB%25A1%259C.jpg",
+      "primary_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQmmq-MEc24aLxvNLrCJpmnNaD-XwBXlen2qDSLIaGgBQo9VFbTmNXuwNW_ixf-kTqD6rYu-UmjosB-TjuBqhj3egk9MpEarFswOwXg8Cs8X8o8PGzVI-lpJ4LBmbs02b9uFnqIK1SOHf/s1600/%25EC%25B6%259C%25EC%2595%25A0%25EA%25B5%25BD+%25EA%25B2%25BD%25EB%25A1%259C.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQmmq-MEc24aLxvNLrCJpmnNaD-XwBXlen2qDSLIaGgBQo9VFbTmNXuwNW_ixf-kTqD6rYu-UmjosB-TjuBqhj3egk9MpEarFswOwXg8Cs8X8o8PGzVI-lpJ4LBmbs02b9uFnqIK1SOHf/s1600/%25EC%25B6%259C%25EC%2595%25A0%25EA%25B5%25BD+%25EA%25B2%25BD%25EB%25A1%259C.jpg",
+      "preferred_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQmmq-MEc24aLxvNLrCJpmnNaD-XwBXlen2qDSLIaGgBQo9VFbTmNXuwNW_ixf-kTqD6rYu-UmjosB-TjuBqhj3egk9MpEarFswOwXg8Cs8X8o8PGzVI-lpJ4LBmbs02b9uFnqIK1SOHf/s1600/%25EC%25B6%259C%25EC%2595%25A0%25EA%25B5%25BD+%25EA%25B2%25BD%25EB%25A1%259C.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P029",
+      "official_name": "르비딤",
+      "map_id": "EXT-USER-0629-P029",
+      "map_labels": [
+        "르비딤"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 르비딤",
+      "map_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQmmq-MEc24aLxvNLrCJpmnNaD-XwBXlen2qDSLIaGgBQo9VFbTmNXuwNW_ixf-kTqD6rYu-UmjosB-TjuBqhj3egk9MpEarFswOwXg8Cs8X8o8PGzVI-lpJ4LBmbs02b9uFnqIK1SOHf/s1600/%25EC%25B6%259C%25EC%2595%25A0%25EA%25B5%25BD+%25EA%25B2%25BD%25EB%25A1%259C.jpg",
+      "primary_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQmmq-MEc24aLxvNLrCJpmnNaD-XwBXlen2qDSLIaGgBQo9VFbTmNXuwNW_ixf-kTqD6rYu-UmjosB-TjuBqhj3egk9MpEarFswOwXg8Cs8X8o8PGzVI-lpJ4LBmbs02b9uFnqIK1SOHf/s1600/%25EC%25B6%259C%25EC%2595%25A0%25EA%25B5%25BD+%25EA%25B2%25BD%25EB%25A1%259C.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQmmq-MEc24aLxvNLrCJpmnNaD-XwBXlen2qDSLIaGgBQo9VFbTmNXuwNW_ixf-kTqD6rYu-UmjosB-TjuBqhj3egk9MpEarFswOwXg8Cs8X8o8PGzVI-lpJ4LBmbs02b9uFnqIK1SOHf/s1600/%25EC%25B6%259C%25EC%2595%25A0%25EA%25B5%25BD+%25EA%25B2%25BD%25EB%25A1%259C.jpg",
+      "preferred_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQmmq-MEc24aLxvNLrCJpmnNaD-XwBXlen2qDSLIaGgBQo9VFbTmNXuwNW_ixf-kTqD6rYu-UmjosB-TjuBqhj3egk9MpEarFswOwXg8Cs8X8o8PGzVI-lpJ4LBmbs02b9uFnqIK1SOHf/s1600/%25EC%25B6%259C%25EC%2595%25A0%25EA%25B5%25BD+%25EA%25B2%25BD%25EB%25A1%259C.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P032",
+      "official_name": "에돔 국경",
+      "map_id": "EXT-USER-0629-P032",
+      "map_labels": [
+        "에돔 국경"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 에돔 국경",
+      "map_url": "https://m.blog.naver.com/samhoung/222392711427?view=img_1",
+      "primary_url": "https://m.blog.naver.com/samhoung/222392711427?view=img_1",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/samhoung/222392711427?view=img_1",
+      "preferred_url": "https://m.blog.naver.com/samhoung/222392711427?view=img_1",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P033",
+      "official_name": "놋뱀 광야",
+      "map_id": "EXT-USER-0629-P033",
+      "map_labels": [
+        "놋뱀 광야"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 놋뱀 광야",
+      "map_url": "https://m1.daumcdn.net/cfile267/image/165DF949516C71750DCDE6",
+      "primary_url": "https://m1.daumcdn.net/cfile267/image/165DF949516C71750DCDE6",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m1.daumcdn.net/cfile267/image/165DF949516C71750DCDE6",
+      "preferred_url": "https://m1.daumcdn.net/cfile267/image/165DF949516C71750DCDE6",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P036",
+      "official_name": "모압 평지",
+      "map_id": "EXT-USER-0629-P036",
+      "map_labels": [
+        "모압 평지"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 모압 평지",
+      "map_url": "https://mblogthumb-phinf.pstatic.net/MjAxNzA5MjJfMTA2/MDAxNTA2MDU0MzI4MTQ3.YYUH-GzRJcyOFSU_wwGLdMkuywRxzjqU_34QgdEF1l4g.LCFh9_cmMtTGq-vbMFDSl-PbMfVHvoIZ0Uy1pmN8Fswg.JPEG.imillera/%EA%B0%80%EB%82%98%EC%95%88%EB%95%85%EC%9E%85%EA%B5%AC.jpg?type=w800",
+      "primary_url": "https://mblogthumb-phinf.pstatic.net/MjAxNzA5MjJfMTA2/MDAxNTA2MDU0MzI4MTQ3.YYUH-GzRJcyOFSU_wwGLdMkuywRxzjqU_34QgdEF1l4g.LCFh9_cmMtTGq-vbMFDSl-PbMfVHvoIZ0Uy1pmN8Fswg.JPEG.imillera/%EA%B0%80%EB%82%98%EC%95%88%EB%95%85%EC%9E%85%EA%B5%AC.jpg?type=w800",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://mblogthumb-phinf.pstatic.net/MjAxNzA5MjJfMTA2/MDAxNTA2MDU0MzI4MTQ3.YYUH-GzRJcyOFSU_wwGLdMkuywRxzjqU_34QgdEF1l4g.LCFh9_cmMtTGq-vbMFDSl-PbMfVHvoIZ0Uy1pmN8Fswg.JPEG.imillera/%EA%B0%80%EB%82%98%EC%95%88%EB%95%85%EC%9E%85%EA%B5%AC.jpg?type=w800",
+      "preferred_url": "https://mblogthumb-phinf.pstatic.net/MjAxNzA5MjJfMTA2/MDAxNTA2MDU0MzI4MTQ3.YYUH-GzRJcyOFSU_wwGLdMkuywRxzjqU_34QgdEF1l4g.LCFh9_cmMtTGq-vbMFDSl-PbMfVHvoIZ0Uy1pmN8Fswg.JPEG.imillera/%EA%B0%80%EB%82%98%EC%95%88%EB%95%85%EC%9E%85%EA%B5%AC.jpg?type=w800",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P044",
+      "official_name": "아얄론 골짜기",
+      "map_id": "EXT-USER-0629-P044",
+      "map_labels": [
+        "아얄론 골짜기"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 아얄론 골짜기",
+      "map_url": "https://blog.naver.com/PostView.naver?blogId=histigma_j&logNo=221362421697&categoryNo=24&parentCategoryNo=0&photoView=2",
+      "primary_url": "https://blog.naver.com/PostView.naver?blogId=histigma_j&logNo=221362421697&categoryNo=24&parentCategoryNo=0&photoView=2",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://blog.naver.com/PostView.naver?blogId=histigma_j&logNo=221362421697&categoryNo=24&parentCategoryNo=0&photoView=2",
+      "preferred_url": "https://blog.naver.com/PostView.naver?blogId=histigma_j&logNo=221362421697&categoryNo=24&parentCategoryNo=0&photoView=2",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P046",
+      "official_name": "보김",
+      "map_id": "EXT-USER-0629-P046",
+      "map_labels": [
+        "보김"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 보김",
+      "map_url": "https://m.blog.naver.com/skjung2205/222715803264?view=img_6",
+      "primary_url": "https://m.blog.naver.com/skjung2205/222715803264?view=img_6",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/skjung2205/222715803264?view=img_6",
+      "preferred_url": "https://m.blog.naver.com/skjung2205/222715803264?view=img_6",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P048",
+      "official_name": "오브라",
+      "map_id": "EXT-USER-0629-P048",
+      "map_labels": [
+        "오브라"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 오브라",
+      "map_url": "https://newsx.ecn.cdn.infralab.net/www.newspower.co.kr/imgdata/newspower_co_kr/201905/201905065820684.jpg",
+      "primary_url": "https://newsx.ecn.cdn.infralab.net/www.newspower.co.kr/imgdata/newspower_co_kr/201905/201905065820684.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://newsx.ecn.cdn.infralab.net/www.newspower.co.kr/imgdata/newspower_co_kr/201905/201905065820684.jpg",
+      "preferred_url": "https://newsx.ecn.cdn.infralab.net/www.newspower.co.kr/imgdata/newspower_co_kr/201905/201905065820684.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P049",
+      "official_name": "소렉 골짜기",
+      "map_id": "EXT-USER-0629-P049",
+      "map_labels": [
+        "소렉 골짜기"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 소렉 골짜기",
+      "map_url": "https://blog.naver.com/PostView.naver?blogId=histigma_j&logNo=221362421697&categoryNo=24&parentCategoryNo=0&photoView=2",
+      "primary_url": "https://blog.naver.com/PostView.naver?blogId=histigma_j&logNo=221362421697&categoryNo=24&parentCategoryNo=0&photoView=2",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://blog.naver.com/PostView.naver?blogId=histigma_j&logNo=221362421697&categoryNo=24&parentCategoryNo=0&photoView=2",
+      "preferred_url": "https://blog.naver.com/PostView.naver?blogId=histigma_j&logNo=221362421697&categoryNo=24&parentCategoryNo=0&photoView=2",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P054",
+      "official_name": "시온산",
+      "map_id": "EXT-USER-0629-P054",
+      "map_labels": [
+        "시온산"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 시온산",
+      "map_url": "https://image.kmib.co.kr/online_image/2020/0204/612212110014174684_4.jpg",
+      "primary_url": "https://image.kmib.co.kr/online_image/2020/0204/612212110014174684_4.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://image.kmib.co.kr/online_image/2020/0204/612212110014174684_4.jpg",
+      "preferred_url": "https://image.kmib.co.kr/online_image/2020/0204/612212110014174684_4.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P055",
+      "official_name": "기브온 산당",
+      "map_id": "EXT-USER-0629-P055",
+      "map_labels": [
+        "기브온 산당"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 기브온 산당",
+      "map_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg",
+      "primary_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg",
+      "preferred_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P059",
+      "official_name": "갈멜산",
+      "map_id": "EXT-USER-0629-P059",
+      "map_labels": [
+        "갈멜산"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 갈멜산",
+      "map_url": "https://m.blog.naver.com/dkramy/221537845517?view=img_1",
+      "primary_url": "https://m.blog.naver.com/dkramy/221537845517?view=img_1",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/dkramy/221537845517?view=img_1",
+      "preferred_url": "https://m.blog.naver.com/dkramy/221537845517?view=img_1",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P064",
+      "official_name": "히스기야 수로",
+      "map_id": "EXT-USER-0629-P064",
+      "map_labels": [
+        "히스기야 수로"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 히스기야 수로",
+      "map_url": "http://champyungan.com/wp-content/uploads/2018/06/%EC%A0%9C%EB%AA%A9-%EC%97%86%EC%9D%8C12.png",
+      "primary_url": "http://champyungan.com/wp-content/uploads/2018/06/%EC%A0%9C%EB%AA%A9-%EC%97%86%EC%9D%8C12.png",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "http://champyungan.com/wp-content/uploads/2018/06/%EC%A0%9C%EB%AA%A9-%EC%97%86%EC%9D%8C12.png",
+      "preferred_url": "http://champyungan.com/wp-content/uploads/2018/06/%EC%A0%9C%EB%AA%A9-%EC%97%86%EC%9D%8C12.png",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P067",
+      "official_name": "그발 강",
+      "map_id": "EXT-USER-0629-P067",
+      "map_labels": [
+        "그발 강"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 그발 강",
+      "map_url": "https://t1.daumcdn.net/cafeattach/1Xi7f/b16267119f4753aef9da8fc85974f61f8932fea4",
+      "primary_url": "https://t1.daumcdn.net/cafeattach/1Xi7f/b16267119f4753aef9da8fc85974f61f8932fea4",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://t1.daumcdn.net/cafeattach/1Xi7f/b16267119f4753aef9da8fc85974f61f8932fea4",
+      "preferred_url": "https://t1.daumcdn.net/cafeattach/1Xi7f/b16267119f4753aef9da8fc85974f61f8932fea4",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P069",
+      "official_name": "감람산",
+      "map_id": "EXT-USER-0629-P069",
+      "map_labels": [
+        "감람산"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 감람산",
+      "map_url": "https://image.kmib.co.kr/online_image/2020/0204/612212110014174684_4.jpg",
+      "primary_url": "https://image.kmib.co.kr/online_image/2020/0204/612212110014174684_4.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://image.kmib.co.kr/online_image/2020/0204/612212110014174684_4.jpg",
+      "preferred_url": "https://image.kmib.co.kr/online_image/2020/0204/612212110014174684_4.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P072",
+      "official_name": "유대 광야",
+      "map_id": "EXT-USER-0629-P072",
+      "map_labels": [
+        "유대 광야"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 유대 광야",
+      "map_url": "https://t1.daumcdn.net/blogfile/fs11/14_blog_2008_06_25_17_22_48620027ca3ca?x-content-disposition=inline&filename=%EC%98%88%EC%88%98%EB%8B%98%EC%9D%98%EA%B3%B5%EC%83%9D%EC%95%A0%EC%B4%88%EA%B8%B0%EC%82%AC%EC%97%AD.jpg",
+      "primary_url": "https://t1.daumcdn.net/blogfile/fs11/14_blog_2008_06_25_17_22_48620027ca3ca?x-content-disposition=inline&filename=%EC%98%88%EC%88%98%EB%8B%98%EC%9D%98%EA%B3%B5%EC%83%9D%EC%95%A0%EC%B4%88%EA%B8%B0%EC%82%AC%EC%97%AD.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://t1.daumcdn.net/blogfile/fs11/14_blog_2008_06_25_17_22_48620027ca3ca?x-content-disposition=inline&filename=%EC%98%88%EC%88%98%EB%8B%98%EC%9D%98%EA%B3%B5%EC%83%9D%EC%95%A0%EC%B4%88%EA%B8%B0%EC%82%AC%EC%97%AD.jpg",
+      "preferred_url": "https://t1.daumcdn.net/blogfile/fs11/14_blog_2008_06_25_17_22_48620027ca3ca?x-content-disposition=inline&filename=%EC%98%88%EC%88%98%EB%8B%98%EC%9D%98%EA%B3%B5%EC%83%9D%EC%95%A0%EC%B4%88%EA%B8%B0%EC%82%AC%EC%97%AD.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P078",
+      "official_name": "막달라",
+      "map_id": "EXT-USER-0629-P078",
+      "map_labels": [
+        "막달라"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 막달라",
+      "map_url": "https://cnts-image.godpeople.com/47/52047/700_7278.jpg",
+      "primary_url": "https://cnts-image.godpeople.com/47/52047/700_7278.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://cnts-image.godpeople.com/47/52047/700_7278.jpg",
+      "preferred_url": "https://cnts-image.godpeople.com/47/52047/700_7278.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P098",
+      "official_name": "밧모",
+      "map_id": "EXT-USER-0629-P098",
+      "map_labels": [
+        "밧모"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 밧모",
+      "map_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_2",
+      "primary_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_2",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_2",
+      "preferred_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_2",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P102",
+      "official_name": "변화산",
+      "map_id": "EXT-USER-0629-P102",
+      "map_labels": [
+        "변화산"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 변화산",
+      "map_url": "https://postfiles.pstatic.net/20121110_229/newmanycw_1352512459265Sfezn_JPEG/%C0%CC%BD%BA%B8%A3%BF%A4_%B0%F1%C2%A5%B1%E2_%C1%F6%B5%B5.jpg?type=w3",
+      "primary_url": "https://postfiles.pstatic.net/20121110_229/newmanycw_1352512459265Sfezn_JPEG/%C0%CC%BD%BA%B8%A3%BF%A4_%B0%F1%C2%A5%B1%E2_%C1%F6%B5%B5.jpg?type=w3",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://postfiles.pstatic.net/20121110_229/newmanycw_1352512459265Sfezn_JPEG/%C0%CC%BD%BA%B8%A3%BF%A4_%B0%F1%C2%A5%B1%E2_%C1%F6%B5%B5.jpg?type=w3",
+      "preferred_url": "https://postfiles.pstatic.net/20121110_229/newmanycw_1352512459265Sfezn_JPEG/%C0%CC%BD%BA%B8%A3%BF%A4_%B0%F1%C2%A5%B1%E2_%C1%F6%B5%B5.jpg?type=w3",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P108",
+      "official_name": "골로새",
+      "map_id": "EXT-USER-0629-P108",
+      "map_labels": [
+        "골로새"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 골로새",
+      "map_url": "https://kor.theasian.asia/wp-content/uploads/2023/12/Screenshot%EF%BC%BF20221013%EF%BC%8D142316%EF%BC%BFNAVER-620x543.jpg",
+      "primary_url": "https://kor.theasian.asia/wp-content/uploads/2023/12/Screenshot%EF%BC%BF20221013%EF%BC%8D142316%EF%BC%BFNAVER-620x543.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://kor.theasian.asia/wp-content/uploads/2023/12/Screenshot%EF%BC%BF20221013%EF%BC%8D142316%EF%BC%BFNAVER-620x543.jpg",
+      "preferred_url": "https://kor.theasian.asia/wp-content/uploads/2023/12/Screenshot%EF%BC%BF20221013%EF%BC%8D142316%EF%BC%BFNAVER-620x543.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P110",
+      "official_name": "우스 땅",
+      "map_id": "EXT-USER-0629-P110",
+      "map_labels": [
+        "우스 땅"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 우스 땅",
+      "map_url": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FMDRfB%2Fbtq4f1N97PV%2FAAAAAAAAAAAAAAAAAAAAABADtRNI1yKIixcToVD96IDcFnEoa4OT8P28PBXz9c9o%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1782831599%26allow_ip%3D%26allow_referer%3D%26signature%3DD1kpGbveMHkH2NjJUzaKxQoEiXA%253D",
+      "primary_url": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FMDRfB%2Fbtq4f1N97PV%2FAAAAAAAAAAAAAAAAAAAAABADtRNI1yKIixcToVD96IDcFnEoa4OT8P28PBXz9c9o%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1782831599%26allow_ip%3D%26allow_referer%3D%26signature%3DD1kpGbveMHkH2NjJUzaKxQoEiXA%253D",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FMDRfB%2Fbtq4f1N97PV%2FAAAAAAAAAAAAAAAAAAAAABADtRNI1yKIixcToVD96IDcFnEoa4OT8P28PBXz9c9o%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1782831599%26allow_ip%3D%26allow_referer%3D%26signature%3DD1kpGbveMHkH2NjJUzaKxQoEiXA%253D",
+      "preferred_url": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FMDRfB%2Fbtq4f1N97PV%2FAAAAAAAAAAAAAAAAAAAAABADtRNI1yKIixcToVD96IDcFnEoa4OT8P28PBXz9c9o%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1782831599%26allow_ip%3D%26allow_referer%3D%26signature%3DD1kpGbveMHkH2NjJUzaKxQoEiXA%253D",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P111",
+      "official_name": "길보아산",
+      "map_id": "EXT-USER-0629-P111",
+      "map_labels": [
+        "길보아산"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 길보아산",
+      "map_url": "https://m.blog.naver.com/johneye/221765066992?view=img_1",
+      "primary_url": "https://m.blog.naver.com/johneye/221765066992?view=img_1",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/johneye/221765066992?view=img_1",
+      "preferred_url": "https://m.blog.naver.com/johneye/221765066992?view=img_1",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P357",
+      "official_name": "아둘람 굴",
+      "map_id": "EXT-USER-0629-P357",
+      "map_labels": [
+        "아둘람 굴"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 아둘람 굴",
+      "map_url": "https://m1.daumcdn.net/cfile261/image/271C734B57BB70392D6EB8",
+      "primary_url": "https://m1.daumcdn.net/cfile261/image/271C734B57BB70392D6EB8",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m1.daumcdn.net/cfile261/image/271C734B57BB70392D6EB8",
+      "preferred_url": "https://m1.daumcdn.net/cfile261/image/271C734B57BB70392D6EB8",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P358",
+      "official_name": "기럇여아림",
+      "map_id": "EXT-USER-0629-P358",
+      "map_labels": [
+        "기럇여아림"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 기럇여아림",
+      "map_url": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FdqTccf%2FbtrBF5Fh2Ae%2FAAAAAAAAAAAAAAAAAAAAACZqKCznptOwXNeW0j3dy_ABK7JDPAiDC3ajO_-cOwqe%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1782831599%26allow_ip%3D%26allow_referer%3D%26signature%3Da66Yi%252BV6usrRY6Qa6qbMZpsn8kQ%253D",
+      "primary_url": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FdqTccf%2FbtrBF5Fh2Ae%2FAAAAAAAAAAAAAAAAAAAAACZqKCznptOwXNeW0j3dy_ABK7JDPAiDC3ajO_-cOwqe%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1782831599%26allow_ip%3D%26allow_referer%3D%26signature%3Da66Yi%252BV6usrRY6Qa6qbMZpsn8kQ%253D",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FdqTccf%2FbtrBF5Fh2Ae%2FAAAAAAAAAAAAAAAAAAAAACZqKCznptOwXNeW0j3dy_ABK7JDPAiDC3ajO_-cOwqe%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1782831599%26allow_ip%3D%26allow_referer%3D%26signature%3Da66Yi%252BV6usrRY6Qa6qbMZpsn8kQ%253D",
+      "preferred_url": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FdqTccf%2FbtrBF5Fh2Ae%2FAAAAAAAAAAAAAAAAAAAAACZqKCznptOwXNeW0j3dy_ABK7JDPAiDC3ajO_-cOwqe%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1782831599%26allow_ip%3D%26allow_referer%3D%26signature%3Da66Yi%252BV6usrRY6Qa6qbMZpsn8kQ%253D",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P359",
+      "official_name": "엘라 골짜기",
+      "map_id": "EXT-USER-0629-P359",
+      "map_labels": [
+        "엘라 골짜기"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 엘라 골짜기",
+      "map_url": "https://blog.naver.com/PostView.naver?blogId=histigma_j&logNo=221362421697&categoryNo=24&parentCategoryNo=0&photoView=2",
+      "primary_url": "https://blog.naver.com/PostView.naver?blogId=histigma_j&logNo=221362421697&categoryNo=24&parentCategoryNo=0&photoView=2",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://blog.naver.com/PostView.naver?blogId=histigma_j&logNo=221362421697&categoryNo=24&parentCategoryNo=0&photoView=2",
+      "preferred_url": "https://blog.naver.com/PostView.naver?blogId=histigma_j&logNo=221362421697&categoryNo=24&parentCategoryNo=0&photoView=2",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P360",
+      "official_name": "소돔과 고모라",
+      "map_id": "EXT-USER-0629-P360",
+      "map_labels": [
+        "소돔과 고모라"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 소돔과 고모라",
+      "map_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizFJBDeVT4fTb4TmmMq8qHUcjRupdTF3gkizZewZ7DpMS8I2H2aQ2p81HZTjuzHjIlzeN8l168rXurxS4sQVeCcOxxvqwO8LoNMmW3fFSdmKffKjY3lXpxW4nr_ZyK_d2BnuZyWW9WRxZ-/s1600/%25EB%25A1%25AF+%25EA%25B5%25AC%25EC%25B6%259C+%25EC%259E%2591%25EC%25A0%2584.gif",
+      "primary_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizFJBDeVT4fTb4TmmMq8qHUcjRupdTF3gkizZewZ7DpMS8I2H2aQ2p81HZTjuzHjIlzeN8l168rXurxS4sQVeCcOxxvqwO8LoNMmW3fFSdmKffKjY3lXpxW4nr_ZyK_d2BnuZyWW9WRxZ-/s1600/%25EB%25A1%25AF+%25EA%25B5%25AC%25EC%25B6%259C+%25EC%259E%2591%25EC%25A0%2584.gif",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizFJBDeVT4fTb4TmmMq8qHUcjRupdTF3gkizZewZ7DpMS8I2H2aQ2p81HZTjuzHjIlzeN8l168rXurxS4sQVeCcOxxvqwO8LoNMmW3fFSdmKffKjY3lXpxW4nr_ZyK_d2BnuZyWW9WRxZ-/s1600/%25EB%25A1%25AF+%25EA%25B5%25AC%25EC%25B6%259C+%25EC%259E%2591%25EC%25A0%2584.gif",
+      "preferred_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizFJBDeVT4fTb4TmmMq8qHUcjRupdTF3gkizZewZ7DpMS8I2H2aQ2p81HZTjuzHjIlzeN8l168rXurxS4sQVeCcOxxvqwO8LoNMmW3fFSdmKffKjY3lXpxW4nr_ZyK_d2BnuZyWW9WRxZ-/s1600/%25EB%25A1%25AF+%25EA%25B5%25AC%25EC%25B6%259C+%25EC%259E%2591%25EC%25A0%2584.gif",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P361",
+      "official_name": "놉",
+      "map_id": "EXT-USER-0629-P361",
+      "map_labels": [
+        "놉"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 놉",
+      "map_url": "https://m.blog.naver.com/weddingbhc/221994486863?view=img_5",
+      "primary_url": "https://m.blog.naver.com/weddingbhc/221994486863?view=img_5",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/weddingbhc/221994486863?view=img_5",
+      "preferred_url": "https://m.blog.naver.com/weddingbhc/221994486863?view=img_5",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P362",
+      "official_name": "멜리데섬",
+      "map_id": "EXT-USER-0629-P362",
+      "map_labels": [
+        "멜리데섬"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 멜리데섬",
+      "map_url": "https://blog.naver.com/holydewglory/223130729866?photoView=0",
+      "primary_url": "https://blog.naver.com/holydewglory/223130729866?photoView=0",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://blog.naver.com/holydewglory/223130729866?photoView=0",
+      "preferred_url": "https://blog.naver.com/holydewglory/223130729866?photoView=0",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P366",
+      "official_name": "그일라",
+      "map_id": "EXT-USER-0629-P366",
+      "map_labels": [
+        "그일라"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 그일라",
+      "map_url": "https://m.blog.naver.com/weddingbhc/221994486863?view=img_5",
+      "primary_url": "https://m.blog.naver.com/weddingbhc/221994486863?view=img_5",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/weddingbhc/221994486863?view=img_5",
+      "preferred_url": "https://m.blog.naver.com/weddingbhc/221994486863?view=img_5",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P367",
+      "official_name": "십 광야",
+      "map_id": "EXT-USER-0629-P367",
+      "map_labels": [
+        "십 광야"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 십 광야",
+      "map_url": "https://m.blog.naver.com/johneye/221761297451?view=img_6",
+      "primary_url": "https://m.blog.naver.com/johneye/221761297451?view=img_6",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/johneye/221761297451?view=img_6",
+      "preferred_url": "https://m.blog.naver.com/johneye/221761297451?view=img_6",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P368",
+      "official_name": "마온 광야",
+      "map_id": "EXT-USER-0629-P368",
+      "map_labels": [
+        "마온 광야"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 마온 광야",
+      "map_url": "https://m.blog.naver.com/johneye/221761297451?view=img_6",
+      "primary_url": "https://m.blog.naver.com/johneye/221761297451?view=img_6",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/johneye/221761297451?view=img_6",
+      "preferred_url": "https://m.blog.naver.com/johneye/221761297451?view=img_6",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P374",
+      "official_name": "베데스다",
+      "map_id": "EXT-USER-0629-P374",
+      "map_labels": [
+        "베데스다"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 베데스다",
+      "map_url": "https://m.blog.naver.com/dkramy/221616413946?view=img_1",
+      "primary_url": "https://m.blog.naver.com/dkramy/221616413946?view=img_1",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/dkramy/221616413946?view=img_1",
+      "preferred_url": "https://m.blog.naver.com/dkramy/221616413946?view=img_1",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P378",
+      "official_name": "뱃새다",
+      "map_id": "EXT-USER-0629-P378",
+      "map_labels": [
+        "뱃새다"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 뱃새다",
+      "map_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "primary_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "preferred_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P379",
+      "official_name": "나인 성",
+      "map_id": "EXT-USER-0629-P379",
+      "map_labels": [
+        "나인 성"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 나인 성",
+      "map_url": "https://m.blog.naver.com/otnt2018/221777542569?view=img_4",
+      "primary_url": "https://m.blog.naver.com/otnt2018/221777542569?view=img_4",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/otnt2018/221777542569?view=img_4",
+      "preferred_url": "https://m.blog.naver.com/otnt2018/221777542569?view=img_4",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P380",
+      "official_name": "수가 성",
+      "map_id": "EXT-USER-0629-P380",
+      "map_labels": [
+        "수가 성"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 수가 성",
+      "map_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "primary_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "preferred_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P382",
+      "official_name": "세렛 시내",
+      "map_id": "EXT-USER-0629-P382",
+      "map_labels": [
+        "세렛 시내"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 세렛 시내",
+      "map_url": "http://www.christiantoday.co.kr/files/article/db/2015/11/13/1447391586_1167610aa1.jpg",
+      "primary_url": "http://www.christiantoday.co.kr/files/article/db/2015/11/13/1447391586_1167610aa1.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "http://www.christiantoday.co.kr/files/article/db/2015/11/13/1447391586_1167610aa1.jpg",
+      "preferred_url": "http://www.christiantoday.co.kr/files/article/db/2015/11/13/1447391586_1167610aa1.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P390",
+      "official_name": "아이 성",
+      "map_id": "EXT-USER-0629-P390",
+      "map_labels": [
+        "아이 성"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 아이 성",
+      "map_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg",
+      "primary_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg",
+      "preferred_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P394",
+      "official_name": "딤나",
+      "map_id": "EXT-USER-0629-P394",
+      "map_labels": [
+        "딤나"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 딤나",
+      "map_url": "https://m.blog.naver.com/skjung2205/223513865824?view=img_4",
+      "primary_url": "https://m.blog.naver.com/skjung2205/223513865824?view=img_4",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/skjung2205/223513865824?view=img_4",
+      "preferred_url": "https://m.blog.naver.com/skjung2205/223513865824?view=img_4",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P405",
+      "official_name": "시온 성",
+      "map_id": "EXT-USER-0629-P405",
+      "map_labels": [
+        "시온 성"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 시온 성",
+      "map_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_18.jpg",
+      "primary_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_18.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_18.jpg",
+      "preferred_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_18.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P409",
+      "official_name": "다윗 성",
+      "map_id": "EXT-USER-0629-P409",
+      "map_labels": [
+        "다윗 성"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 다윗 성",
+      "map_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_18.jpg",
+      "primary_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_18.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_18.jpg",
+      "preferred_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_18.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P417",
+      "official_name": "다시스",
+      "map_id": "EXT-USER-0629-P417",
+      "map_labels": [
+        "다시스"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 다시스",
+      "map_url": "https://blog.naver.com/ccc192000/223473224082?photoView=1",
+      "primary_url": "https://blog.naver.com/ccc192000/223473224082?photoView=1",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://blog.naver.com/ccc192000/223473224082?photoView=1",
+      "preferred_url": "https://blog.naver.com/ccc192000/223473224082?photoView=1",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P420",
+      "official_name": "빌립보 감옥",
+      "map_id": "EXT-USER-0629-P420",
+      "map_labels": [
+        "빌립보 감옥"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 빌립보 감옥",
+      "map_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_2",
+      "primary_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_2",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_2",
+      "preferred_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_2",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P421",
+      "official_name": "아레오바고",
+      "map_id": "EXT-USER-0629-P421",
+      "map_labels": [
+        "아레오바고"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 아레오바고",
+      "map_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_16",
+      "primary_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_16",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_16",
+      "preferred_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_16",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P422",
+      "official_name": "겐그레아 교회",
+      "map_id": "EXT-USER-0629-P422",
+      "map_labels": [
+        "겐그레아 교회"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 겐그레아 교회",
+      "map_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_2",
+      "primary_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_2",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_2",
+      "preferred_url": "https://m.blog.naver.com/skjung2205/223437638210?view=img_2",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P423",
+      "official_name": "에브라임 광야",
+      "map_id": "EXT-USER-0629-P423",
+      "map_labels": [
+        "에브라임 광야"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 에브라임 광야",
+      "map_url": "https://m1.daumcdn.net/cfile282/image/205E110C4B12EDE8362AF7",
+      "primary_url": "https://m1.daumcdn.net/cfile282/image/205E110C4B12EDE8362AF7",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://m1.daumcdn.net/cfile282/image/205E110C4B12EDE8362AF7",
+      "preferred_url": "https://m1.daumcdn.net/cfile282/image/205E110C4B12EDE8362AF7",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P424",
+      "official_name": "디베랴 바다",
+      "map_id": "EXT-USER-0629-P424",
+      "map_labels": [
+        "디베랴 바다"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 디베랴 바다",
+      "map_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "primary_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "preferred_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P426",
+      "official_name": "두로와 시돈 지경",
+      "map_id": "EXT-USER-0629-P426",
+      "map_labels": [
+        "두로와 시돈 지경"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 두로와 시돈 지경",
+      "map_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "primary_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "preferred_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P427",
+      "official_name": "달마누다 지방",
+      "map_id": "EXT-USER-0629-P427",
+      "map_labels": [
+        "달마누다 지방"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 달마누다 지방",
+      "map_url": "https://cnts-image.godpeople.com/47/52047/700_7278.jpg",
+      "primary_url": "https://cnts-image.godpeople.com/47/52047/700_7278.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://cnts-image.godpeople.com/47/52047/700_7278.jpg",
+      "preferred_url": "https://cnts-image.godpeople.com/47/52047/700_7278.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P428",
+      "official_name": "야곱의 우물",
+      "map_id": "EXT-USER-0629-P428",
+      "map_labels": [
+        "야곱의 우물"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 야곱의 우물",
+      "map_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "primary_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "preferred_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    },
+    {
+      "place_id": "P429",
+      "official_name": "요단강 건너편 베다니",
+      "map_id": "EXT-USER-0629-P429",
+      "map_labels": [
+        "요단강 건너편 베다니"
+      ],
+      "feature_types": [
+        "external_map"
+      ],
+      "source": "user_provided_external_0629",
+      "link_type": "external_user_provided_map",
+      "map_type": "external_or_representative",
+      "map_title": "외부 지도: 요단강 건너편 베다니",
+      "map_url": "https://t1.daumcdn.net/cafeattach/1LtGH/81abe14771a6940cd0a8437794075d9680d013af",
+      "primary_url": "https://t1.daumcdn.net/cafeattach/1LtGH/81abe14771a6940cd0a8437794075d9680d013af",
+      "alternate_url": null,
+      "preferred_url_policy": "user_provided_external_first",
+      "map_url_status": "user_provided_needs_visual_qa",
+      "official_url": "https://t1.daumcdn.net/cafeattach/1LtGH/81abe14771a6940cd0a8437794075d9680d013af",
+      "preferred_url": "https://t1.daumcdn.net/cafeattach/1LtGH/81abe14771a6940cd0a8437794075d9680d013af",
+      "url_policy": "user_provided_external_url",
+      "verification_status": "user_provided_pending_visual_qa",
+      "qa_note": "사용자 제공 URL. PWA 테스트 반영용. 최종 배포 전 지명 실제 표시 여부 QA 필요."
+    }
+  ]
+}

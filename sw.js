@@ -1,4 +1,4 @@
-const CACHE_NAME = "cen-biblemaps-bmpi-v1-1";
+const CACHE_NAME = "cen-biblemaps-external-test-v1-2";
 const ASSETS = [
   "./",
   "./index.html",
@@ -9,6 +9,7 @@ const ASSETS = [
   "./data/places-master.json",
   "./data/map-master.json",
   "./data/place-map-links-master.json",
+  "./data/external-map-links-user-0629.json",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png"
 ];

@@ -25,3 +25,9 @@ Map First 원칙 기반 배포용 최종 PWA입니다.
 - place-map-links-master.json replaced with BMPI-generated direct-visible links.
 - map-label-aliases.json added.
 - App search restricted to BMPI visible place labels and aliases, not people/event/summary keywords.
+
+
+## 2026-06-29 External URL Test
+- 사용자 제공 외부 지도 URL 반영: 58건
+- URL 공란 검토 목록: 46건 (`data/external-map-links-missing-url-review.csv`)
+- 최종 배포 전 실제 지도 표기 QA 필요

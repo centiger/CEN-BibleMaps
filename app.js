@@ -66,7 +66,7 @@
   // 지도보기는 반드시 해당 지명이 실제 표기된 direct link만 사용하고,
   // 여러 지도가 있으면 "범용 지도"보다 "구체 지도/고해상도 지도"를 우선한다.
   function directLinks(ls) {
-    return arr(ls).filter(l => String(l.link_type || '') === 'direct_visible_on_bsk_map' && linkUrl(l));
+    return arr(ls).filter(l => (['direct_visible_on_bsk_map','external_user_provided_map','external_direct_map','external_representative_map'].includes(String(l.link_type || '')) && linkUrl(l)));
   }
   function linkPriority(l, p) {
     const name = norm(p?._name || p?.official_name || p?.canonical_name || '');
@@ -280,7 +280,7 @@
     return `<div class="map-list">${ls.slice(0,limit).map((l,i) => {
       const labels = uniq(arr(l.map_labels)).join(', ');
       const url = linkUrl(l);
-      const high = l.alternate_url ? '<span class="source-pill">고해상도 기본</span>' : '<span class="source-pill">공식지도</span>';
+      const high = String(l.link_type || '').startsWith('external') ? '<span class="source-pill">외부지도</span>' : (l.alternate_url ? '<span class="source-pill">고해상도 기본</span>' : '<span class="source-pill">공식지도</span>');
       return `<button class="map-item" type="button" data-action="open-map-index" data-key="${esc(p._key)}" data-index="${i}">🗺 ${esc(l.map_title || l.map_id)} ${high}<small>${esc(l.map_id)} · ${esc(l.link_type || 'map_link')}</small>${labels ? `<span class="labels">지도표기: ${esc(labels)}</span>` : ''}</button>`;
     }).join('')}</div>`;
   }
@@ -336,7 +336,7 @@
       <div class="info-box"><strong>한 줄 설명</strong><p>${esc(summaryText(p))}</p></div>
       <div class="info-box"><strong>지도에서 보는 의미</strong><p>${esc(p.place_meaning || p.biblical_places_note || '지도에서 위치와 주변 지명을 함께 확인하는 것이 핵심입니다.')}</p></div>
       <div class="info-box"><strong>주요 본문</strong><p>${esc(refsText(p) || '본문 연결 정보 없음')}</p></div>
-      <div class="info-box"><strong>관련지도</strong>${mapButtonsHtml(p)}<p class="map-note">해당 지명이 실제 표기된 지도만 최대 3개까지 보여줍니다.</p></div>
+      <div class="info-box"><strong>관련지도</strong>${mapButtonsHtml(p)}<p class="map-note">BMPI는 실제 표기 확인 지도만, 외부 URL은 사용자 제공/검토용으로 표시합니다.</p></div>
     </div>
     <div class="place-actions">
       ${p._mapCount ? `<button class="action-btn map-btn" type="button" data-action="first-map" data-key="${esc(p._key)}">🗺 지도보기</button>` : `<button class="action-btn disabled-map" type="button" disabled>지도 준비중</button>`}
@@ -369,11 +369,11 @@
         const visible = trustedVisibleLinksForPlace(p);
         return { ...p, _links: visible, _mapCount: visible.length };
       }).sort((a,b) => (b._mapCount-a._mapCount) || a._name.localeCompare(b._name,'ko'));
-      window.CEN_BIBLEMAPS_DEBUG = { mode: 'BMPI keyword only', placesRaw: placesRaw.length, places: places.length, maps: mapMaster.length, links: links.length, aliases: aliasRecords.length, linkedPlaces: new Set(links.map(l => l.place_id)).size };
+      window.CEN_BIBLEMAPS_DEBUG = { mode: 'BMPI + user external URL test', placesRaw: placesRaw.length, places: places.length, maps: mapMaster.length, links: links.length, aliases: aliasRecords.length, linkedPlaces: new Set(links.map(l => l.place_id)).size };
       console.log('[CEN BibleMaps v1.0]', window.CEN_BIBLEMAPS_DEBUG);
       const stats = document.createElement('div');
       stats.className = 'search-stats';
-      stats.textContent = `BMPI 지명 검색 · 지도 36개 · 직접링크 ${links.length}개 · 별칭 ${aliasRecords.length}개`;
+      stats.textContent = `BMPI + 외부지도 테스트 · 링크 ${links.length}개 · 별칭 ${aliasRecords.length}개`;
       document.querySelector('.hero-panel')?.appendChild(stats);
     } catch (e) {
       console.error(e);
