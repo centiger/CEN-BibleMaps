@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>CEN BibleMaps BMPI v1.1</title>
+  <title>CEN BibleMaps QA v1.3.2</title>
   <meta name="theme-color" content="#163a5f" />
   <meta name="description" content="CEN BibleMaps - 성경 지명 지도 검색 PWA" />
   <link rel="manifest" href="manifest.webmanifest" />
@@ -35,6 +35,9 @@
           <button type="button" data-query="하란">하란</button>
           <button type="button" data-query="다메섹">다메섹</button>
         </div>
+        <div class="qa-entry-row">
+          <button id="qaModeBtn" class="qa-mode-btn" type="button">🧪 전체 지명 QA</button>
+        </div>
       </section>
 
       <section id="resultsView" class="panel hidden">
@@ -51,10 +54,31 @@
       <section id="placeView" class="panel hidden">
         <div id="placeCard" class="place-card"></div>
       </section>
+
+      <section id="qaView" class="panel hidden">
+        <div class="section-head qa-head">
+          <div>
+            <h2>전체 지명 QA</h2>
+            <p id="qaMeta">전체 지명을 불러오는 중입니다.</p>
+          </div>
+          <button id="qaHomeBtn" class="small-btn" type="button">처음으로</button>
+        </div>
+        <div class="qa-tools">
+          <input id="qaSearchInput" type="search" autocomplete="off" placeholder="지명 필터: 예) 겟세마네, 골고다, 기브아" />
+          <div class="qa-filter-row" aria-label="QA 필터">
+            <button type="button" class="qa-filter active" data-qa-filter="all">전체</button>
+            <button type="button" class="qa-filter" data-qa-filter="bmpi">BMPI</button>
+            <button type="button" class="qa-filter" data-qa-filter="external">외부</button>
+            <button type="button" class="qa-filter" data-qa-filter="google">Google</button>
+            <button type="button" class="qa-filter" data-qa-filter="none">없음</button>
+          </div>
+        </div>
+        <div id="qaList" class="qa-list"></div>
+      </section>
     </main>
 
     <footer class="footer-note">
-      <span>v1.1 BMPI Keyword</span>
+      <span>v1.3.2 QA Mode</span>
       <span>대한성서공회 지도 우선</span>
     </footer>
   </div>

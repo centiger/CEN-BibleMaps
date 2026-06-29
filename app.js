@@ -11,10 +11,16 @@
     resultsList: $('#resultsList'),
     resultMeta: $('#resultMeta'),
     placeCard: $('#placeCard'),
-    homeBtnFromResults: $('#homeBtnFromResults')
+    homeBtnFromResults: $('#homeBtnFromResults'),
+    qaModeBtn: $('#qaModeBtn'),
+    qaView: $('#qaView'),
+    qaHomeBtn: $('#qaHomeBtn'),
+    qaSearchInput: $('#qaSearchInput'),
+    qaMeta: $('#qaMeta'),
+    qaList: $('#qaList')
   };
 
-  const state = { view: 'home', query: '', selectedKey: null };
+  const state = { view: 'home', query: '', selectedKey: null, qaFilter: 'all', qaQuery: '', lastListView: 'results' };
   let placesRaw = [];
   let places = [];
   let mapMaster = [];
@@ -243,9 +249,10 @@
     els.homeView.classList.toggle('hidden', view !== 'home');
     els.resultsView.classList.toggle('hidden', view !== 'results');
     els.placeView.classList.toggle('hidden', view !== 'place');
+    els.qaView?.classList.toggle('hidden', view !== 'qa');
     els.backBtn.classList.toggle('hidden', view === 'home');
     if (!silentHash) {
-      const hash = view === 'home' ? '#home' : view === 'results' ? '#results' : '#place/' + encodeURIComponent(state.selectedKey || '');
+      const hash = view === 'home' ? '#home' : view === 'results' ? '#results' : view === 'qa' ? '#qa' : '#place/' + encodeURIComponent(state.selectedKey || '');
       if (location.hash !== hash) history.pushState({...state}, '', hash);
     }
   }
@@ -285,6 +292,88 @@
     }).join('')}</div>`;
   }
 
+
+
+  function linkKind(l) {
+    if (!l) return 'none';
+    const type = String(l.link_type || '');
+    const mapType = String(l.map_type || '');
+    const src = String(l.source || '');
+    const url = String(linkUrl(l) || '');
+    if (mapType.includes('google') || src.includes('google') || url.includes('google.com/maps')) return 'google';
+    if (type === 'direct_visible_on_bsk_map' || String(l.map_id || '').startsWith('BMPI-')) return 'bmpi';
+    if (type.startsWith('external')) return 'external';
+    return 'external';
+  }
+
+  function qaKindForPlace(p) {
+    const ls = trustedVisibleLinksForPlace(p);
+    if (!ls.length) return 'none';
+    const kinds = ls.map(linkKind);
+    if (kinds.includes('bmpi')) return 'bmpi';
+    if (kinds.includes('external')) return 'external';
+    if (kinds.includes('google')) return 'google';
+    return 'none';
+  }
+
+  function qaKindLabel(kind) {
+    return ({ bmpi:'BMPI', external:'외부', google:'Google', none:'없음' })[kind] || kind;
+  }
+
+  function qaKindIcon(kind) {
+    return ({ bmpi:'🟢', external:'🟡', google:'🔵', none:'🔴' })[kind] || '⚪';
+  }
+
+  function qaFilteredPlaces() {
+    const q = norm(state.qaQuery || '');
+    return places
+      .map(p => ({ ...p, _qaKind: qaKindForPlace(p) }))
+      .filter(p => state.qaFilter === 'all' || p._qaKind === state.qaFilter)
+      .filter(p => {
+        if (!q) return true;
+        const hay = norm([p._name, p.canonical_name, p.official_name, p.aliases, p.search_keywords, p._bmpiSearchTerms].map(text).join(' '));
+        return hay.includes(q);
+      })
+      .sort((a,b) => a._name.localeCompare(b._name, 'ko') || String(a.id||'').localeCompare(String(b.id||'')));
+  }
+
+  function renderQaList() {
+    const rows = qaFilteredPlaces();
+    const counts = places.reduce((acc,p) => {
+      acc[qaKindForPlace(p)] = (acc[qaKindForPlace(p)] || 0) + 1;
+      return acc;
+    }, {});
+    els.qaMeta.textContent = `표시 ${rows.length}개 / 전체 ${places.length}개 · BMPI ${counts.bmpi||0} · 외부 ${counts.external||0} · Google ${counts.google||0} · 없음 ${counts.none||0}`;
+    if (!rows.length) {
+      els.qaList.innerHTML = `<article class="result-card"><h3 class="result-title">표시할 지명이 없습니다.</h3></article>`;
+      return;
+    }
+    els.qaList.innerHTML = rows.map((p, i) => {
+      const first = trustedVisibleLinksForPlace(p)[0];
+      const mapTitle = first ? (first.map_title || first.map_id || '') : '지도 없음';
+      const kind = p._qaKind;
+      return `<article class="qa-row" data-key="${esc(p._key)}">
+        <button type="button" class="qa-main" data-action="qa-detail" data-key="${esc(p._key)}">
+          <span class="qa-no">${i+1}</span>
+          <span class="qa-name">${esc(p._name)}</span>
+          <span class="qa-status qa-${kind}">${qaKindIcon(kind)} ${qaKindLabel(kind)}</span>
+          <small>${esc(mapTitle)}</small>
+        </button>
+        <div class="qa-actions">
+          ${first ? `<button type="button" class="qa-mini map" data-action="qa-map" data-key="${esc(p._key)}">지도</button>` : `<button type="button" class="qa-mini disabled" disabled>없음</button>`}
+          <button type="button" class="qa-mini" data-action="qa-detail" data-key="${esc(p._key)}">상세</button>
+        </div>
+      </article>`;
+    }).join('');
+  }
+
+  function openQaMode() {
+    state.qaQuery = '';
+    if (els.qaSearchInput) els.qaSearchInput.value = '';
+    renderQaList();
+    show('qa');
+  }
+
   function resultCard(p) {
     const hasMap = p._mapCount > 0;
     const grade = gradeText(p) ? `<span class="grade-pill">${esc(gradeText(p))}</span>` : '';
@@ -320,6 +409,7 @@
   function renderPlace(key) {
     const p = places.find(x => x._key === key);
     if (!p) return;
+    state.lastListView = state.view === 'qa' ? 'qa' : 'results';
     state.selectedKey = key;
     const aliases = compact(p._bmpiSearchTerms || []).filter(a => norm(a) !== norm(p._name)).slice(0, 14);
     const grade = gradeText(p) ? `<span class="grade-pill">${esc(gradeText(p))}</span>` : '';
@@ -340,7 +430,7 @@
     </div>
     <div class="place-actions">
       ${p._mapCount ? `<button class="action-btn map-btn" type="button" data-action="first-map" data-key="${esc(p._key)}">🗺 지도보기</button>` : `<button class="action-btn disabled-map" type="button" disabled>지도 준비중</button>`}
-      <button class="action-btn detail-btn" type="button" data-action="results">검색결과로</button>
+      <button class="action-btn detail-btn" type="button" data-action="results">목록으로</button>
     </div>`;
     show('place');
   }
@@ -370,10 +460,10 @@
         return { ...p, _links: visible, _mapCount: visible.length };
       }).sort((a,b) => (b._mapCount-a._mapCount) || a._name.localeCompare(b._name,'ko'));
       window.CEN_BIBLEMAPS_DEBUG = { mode: 'BMPI authority QA + external + Google fallback v1.3', placesRaw: placesRaw.length, places: places.length, maps: mapMaster.length, links: links.length, aliases: aliasRecords.length, linkedPlaces: new Set(links.map(l => l.place_id)).size };
-      console.log('[CEN BibleMaps v1.3-hotfix]', window.CEN_BIBLEMAPS_DEBUG);
+      console.log('[CEN BibleMaps v1.3.2-QA]', window.CEN_BIBLEMAPS_DEBUG);
       const stats = document.createElement('div');
       stats.className = 'search-stats';
-      stats.textContent = `BMPI QA 통과 + 외부/Google fallback · 링크 ${links.length}개 · 별칭 ${aliasRecords.length}개`;
+      stats.textContent = `BMPI QA + QA Mode · 링크 ${links.length}개 · 별칭 ${aliasRecords.length}개`;
       document.querySelector('.hero-panel')?.appendChild(stats);
     } catch (e) {
       console.error(e);
@@ -402,11 +492,29 @@
     if (!b) return;
     if (b.dataset.action === 'first-map') openFirstMap(b.dataset.key);
     if (b.dataset.action === 'open-map-index') openMapByIndex(b.dataset.key, b.dataset.index);
-    if (b.dataset.action === 'results') show('results');
+    if (b.dataset.action === 'results') show(state.lastListView || 'results');
   });
   els.homeBtnFromResults.addEventListener('click', goHome);
+  els.qaModeBtn?.addEventListener('click', openQaMode);
+  els.qaHomeBtn?.addEventListener('click', goHome);
+  els.qaSearchInput?.addEventListener('input', e => {
+    state.qaQuery = e.target.value || '';
+    renderQaList();
+  });
+  document.querySelectorAll('[data-qa-filter]').forEach(btn => btn.addEventListener('click', () => {
+    state.qaFilter = btn.dataset.qaFilter || 'all';
+    document.querySelectorAll('[data-qa-filter]').forEach(b => b.classList.toggle('active', b === btn));
+    renderQaList();
+  }));
+  els.qaList?.addEventListener('click', e => {
+    const b = e.target.closest('button[data-action]');
+    if (!b) return;
+    if (b.dataset.action === 'qa-map') openFirstMap(b.dataset.key);
+    if (b.dataset.action === 'qa-detail') renderPlace(b.dataset.key);
+  });
   els.backBtn.addEventListener('click', () => {
-    if (state.view === 'place') show('results');
+    if (state.view === 'place') show(state.lastListView || 'results');
+    else if (state.view === 'qa') goHome();
     else if (state.view === 'results') goHome();
     else goHome();
   });
@@ -414,6 +522,7 @@
     const h = location.hash || '#home';
     if (h.startsWith('#place/')) renderPlace(decodeURIComponent(h.split('/')[1] || ''));
     else if (h === '#results') show('results', true);
+    else if (h === '#qa') { renderQaList(); show('qa', true); }
     else {
       els.homeView.classList.remove('hidden');
       els.resultsView.classList.add('hidden');
