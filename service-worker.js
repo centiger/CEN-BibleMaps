@@ -1,4 +1,4 @@
-const CACHE_NAME = "cen-biblemaps-external-test-v1-2";
+const CACHE_NAME = "cen-biblemaps-v1-3-hotfix-0629";
 const ASSETS = [
   "./",
   "./index.html",
@@ -10,6 +10,7 @@ const ASSETS = [
   "./data/map-master.json",
   "./data/place-map-links-master.json",
   "./data/external-map-links-user-0629.json",
+  "./data/google-fallback-links-0629.json",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png"
 ];

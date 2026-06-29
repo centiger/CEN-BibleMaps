@@ -102,7 +102,7 @@
     // 1차: 지도 표기(map_labels)에 검색 지명/공식명/별칭이 실제로 들어간 링크만 신뢰
     let visible = base.filter(l => {
       const labels = arr(l.map_labels).map(norm).filter(Boolean);
-      return labels.some(lb => aliasKeys.some(k => lb === k || lb.includes(k) || k.includes(lb)));
+      return labels.some(lb => aliasKeys.some(k => lb === k || lb.includes(k)));
     });
 
     // 2차: 범용 지도는 구체 지도가 하나라도 있으면 숨김
@@ -369,11 +369,11 @@
         const visible = trustedVisibleLinksForPlace(p);
         return { ...p, _links: visible, _mapCount: visible.length };
       }).sort((a,b) => (b._mapCount-a._mapCount) || a._name.localeCompare(b._name,'ko'));
-      window.CEN_BIBLEMAPS_DEBUG = { mode: 'BMPI + user external URL test', placesRaw: placesRaw.length, places: places.length, maps: mapMaster.length, links: links.length, aliases: aliasRecords.length, linkedPlaces: new Set(links.map(l => l.place_id)).size };
-      console.log('[CEN BibleMaps v1.0]', window.CEN_BIBLEMAPS_DEBUG);
+      window.CEN_BIBLEMAPS_DEBUG = { mode: 'BMPI authority QA + external + Google fallback v1.3', placesRaw: placesRaw.length, places: places.length, maps: mapMaster.length, links: links.length, aliases: aliasRecords.length, linkedPlaces: new Set(links.map(l => l.place_id)).size };
+      console.log('[CEN BibleMaps v1.3-hotfix]', window.CEN_BIBLEMAPS_DEBUG);
       const stats = document.createElement('div');
       stats.className = 'search-stats';
-      stats.textContent = `BMPI + 외부지도 테스트 · 링크 ${links.length}개 · 별칭 ${aliasRecords.length}개`;
+      stats.textContent = `BMPI QA 통과 + 외부/Google fallback · 링크 ${links.length}개 · 별칭 ${aliasRecords.length}개`;
       document.querySelector('.hero-panel')?.appendChild(stats);
     } catch (e) {
       console.error(e);
