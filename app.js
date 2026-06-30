@@ -542,11 +542,11 @@
         const visible = trustedVisibleLinksForPlace(p);
         return { ...p, _links: visible, _mapCount: visible.length };
       }).sort((a,b) => (b._mapCount-a._mapCount) || a._name.localeCompare(b._name,'ko'));
-      window.CEN_BIBLEMAPS_DEBUG = { mode: 'BMPI authority QA + external + Google fallback + localStorage QA results v1.3.3', placesRaw: placesRaw.length, places: places.length, maps: mapMaster.length, links: links.length, aliases: aliasRecords.length, linkedPlaces: new Set(links.map(l => l.place_id)).size };
-      console.log('[CEN BibleMaps v1.3.3-QA-Results]', window.CEN_BIBLEMAPS_DEBUG);
+      window.CEN_BIBLEMAPS_DEBUG = { mode: 'BMPI QA repaired + edited places-master + Google fallback + localStorage QA results v1.3.4', placesRaw: placesRaw.length, places: places.length, maps: mapMaster.length, links: links.length, aliases: aliasRecords.length, linkedPlaces: new Set(links.map(l => l.place_id)).size };
+      console.log('[CEN BibleMaps v1.3.4-QA-Repaired]', window.CEN_BIBLEMAPS_DEBUG);
       const stats = document.createElement('div');
       stats.className = 'search-stats';
-      stats.textContent = `BMPI QA + QA Mode · 링크 ${links.length}개 · 별칭 ${aliasRecords.length}개`;
+      stats.textContent = `BMPI QA + QA Repaired · 링크 ${links.length}개 · 별칭 ${aliasRecords.length}개`;
       document.querySelector('.hero-panel')?.appendChild(stats);
     } catch (e) {
       console.error(e);

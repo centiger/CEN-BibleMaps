@@ -1,0 +1,72 @@
+﻿place_id,canonical_name,qa_kind,qa_status,before_link_count,after_link_count,action,added_map_id,added_map_title,added_url
+P126,가드,bmpi,no_label,5,1,added_google_fallback,GOOGLE-QA-REPAIR-P126,Google Maps 검색: 가드,https://www.google.com/maps/search/?api=1&query=%EA%B0%80%EB%93%9C
+P121,가사,bmpi,no_label,7,1,added_google_fallback,GOOGLE-QA-REPAIR-P121,Google Maps 검색: 가사,https://www.google.com/maps/search/?api=1&query=%EA%B0%80%EC%82%AC
+P103,가사로 가는 길,bmpi,no_label,1,1,removed_failed_links_kept_other_links,,,
+P152,게셀,bmpi,no_label,3,1,added_google_fallback,GOOGLE-QA-REPAIR-P152,Google Maps 검색: 게셀,https://www.google.com/maps/search/?api=1&query=%EA%B2%8C%EC%85%80
+P215,겐그레아,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P215,Google Maps 검색: 겐그레아,https://www.google.com/maps/search/?api=1&query=%EA%B2%90%EA%B7%B8%EB%A0%88%EC%95%84
+P082,겟세마네,bmpi,no_label,1,1,removed_failed_links_kept_other_links,,,
+P216,고라신,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P216,Google Maps 검색: 고라신,https://www.google.com/maps/search/?api=1&query=%EA%B3%A0%EB%9D%BC%EC%8B%A0
+P083,골고다,bmpi,no_label,0,1,added_google_fallback,GOOGLE-QA-REPAIR-P083,Google Maps 검색: 골고다,https://www.google.com/maps/search/?api=1&query=%EA%B3%A8%EA%B3%A0%EB%8B%A4
+P052,기브아,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P052,Google Maps 검색: 기브아,https://www.google.com/maps/search/?api=1&query=%EA%B8%B0%EB%B8%8C%EC%95%84
+P061,길르앗 라못,bmpi,no_label,5,1,added_google_fallback,GOOGLE-QA-REPAIR-P061,Google Maps 검색: 길르앗 라못,https://www.google.com/maps/search/?api=1&query=%EA%B8%B8%EB%A5%B4%EC%95%97%20%EB%9D%BC%EB%AA%BB
+P227,길헤레스,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P227,Google Maps 검색: 길헤레스,https://www.google.com/maps/search/?api=1&query=%EA%B8%B8%ED%97%A4%EB%A0%88%EC%8A%A4
+P228,깁브돈,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P228,Google Maps 검색: 깁브돈,https://www.google.com/maps/search/?api=1&query=%EA%B9%81%EB%B8%8C%EB%8F%88
+P230,나인,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P230,Google Maps 검색: 나인,https://www.google.com/maps/search/?api=1&query=%EB%82%98%EC%9D%B8
+P231,나헷,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P231,Google Maps 검색: 나헷,https://www.google.com/maps/search/?api=1&query=%EB%82%98%ED%97%B7
+P233,니도,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P233,Google Maps 검색: 니도,https://www.google.com/maps/search/?api=1&query=%EB%8B%88%EB%8F%84
+P417,다시스,external,map_error,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P417,Google Maps 검색: 다시스,https://www.google.com/maps/search/?api=1&query=%EB%8B%A4%EC%8B%9C%EC%8A%A4
+P237,답부아,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P237,Google Maps 검색: 답부아,https://www.google.com/maps/search/?api=1&query=%EB%8B%B5%EB%B6%80%EC%95%84
+P060,도단,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P060,Google Maps 검색: 도단,https://www.google.com/maps/search/?api=1&query=%EB%8F%84%EB%8B%A8
+P172,돌,bmpi,no_label,2,1,added_google_fallback,GOOGLE-QA-REPAIR-P172,Google Maps 검색: 돌,https://www.google.com/maps/search/?api=1&query=%EB%8F%8C
+P244,드라고닛,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P244,Google Maps 검색: 드라고닛,https://www.google.com/maps/search/?api=1&query=%EB%93%9C%EB%9D%BC%EA%B3%A0%EB%8B%9B
+P245,디르사,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P245,Google Maps 검색: 디르사,https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%A5%B4%EC%82%AC
+P414,디브온,none,no_label,1,1,removed_failed_links_kept_other_links,,,
+P175,디셉,bmpi,no_label,2,1,added_google_fallback,GOOGLE-QA-REPAIR-P175,Google Maps 검색: 디셉,https://www.google.com/maps/search/?api=1&query=%EB%94%94%EC%85%89
+P247,딤낫 세라,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P247,Google Maps 검색: 딤낫 세라,https://www.google.com/maps/search/?api=1&query=%EB%94%A4%EB%82%AB%20%EC%84%B8%EB%9D%BC
+P158,레바논 산,bmpi,no_label,3,1,added_google_fallback,GOOGLE-QA-REPAIR-P158,Google Maps 검색: 레바논 산,https://www.google.com/maps/search/?api=1&query=%EB%A0%88%EB%B0%94%EB%85%BC%20%EC%82%B0
+P085,마가의 다락방,bmpi,no_label,1,1,removed_failed_links_kept_other_links,,,
+P362,멜리데섬,external,map_error,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P362,Google Maps 검색: 멜리데섬,https://www.google.com/maps/search/?api=1&query=%EB%A9%9C%EB%A6%AC%EB%8D%B0%EC%84%AC
+P265,미락 골짜기,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P265,Google Maps 검색: 미락 골짜기,https://www.google.com/maps/search/?api=1&query=%EB%AF%B8%EB%9D%BD%20%EA%B3%A8%EC%A7%9C%EA%B8%B0
+P081,베다니,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P081,Google Maps 검색: 베다니,https://www.google.com/maps/search/?api=1&query=%EB%B2%A0%EB%8B%A4%EB%8B%88
+P274,베레아,bmpi,map_error,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P274,Google Maps 검색: 베레아,https://www.google.com/maps/search/?api=1&query=%EB%B2%A0%EB%A0%88%EC%95%84
+P276,벧세메스,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P276,Google Maps 검색: 벧세메스,https://www.google.com/maps/search/?api=1&query=%EB%B2%A7%EC%84%B8%EB%A9%94%EC%8A%A4
+P277,벳바게,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P277,Google Maps 검색: 벳바게,https://www.google.com/maps/search/?api=1&query=%EB%B2%B3%EB%B0%94%EA%B2%8C
+P280,브누엘,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P280,Google Maps 검색: 브누엘,https://www.google.com/maps/search/?api=1&query=%EB%B8%8C%EB%88%84%EC%97%98
+P018,브니엘,bmpi,map_error,1,1,removed_failed_links_kept_other_links,,,
+P123,블레셋,bmpi,no_label,7,1,added_google_fallback,GOOGLE-QA-REPAIR-P123,Google Maps 검색: 블레셋,https://www.google.com/maps/search/?api=1&query=%EB%B8%94%EB%A0%88%EC%85%8B
+P284,비블로스,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P284,Google Maps 검색: 비블로스,https://www.google.com/maps/search/?api=1&query=%EB%B9%84%EB%B8%94%EB%A1%9C%EC%8A%A4
+P286,빌립보 가이사랴,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P286,Google Maps 검색: 빌립보 가이사랴,https://www.google.com/maps/search/?api=1&query=%EB%B9%8C%EB%A6%BD%EB%B3%B4%20%EA%B0%80%EC%9D%B4%EC%82%AC%EB%9E%B4
+P290,살림,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P290,Google Maps 검색: 살림,https://www.google.com/maps/search/?api=1&query=%EC%82%B4%EB%A6%BC
+P049,소렉 골짜기,bmpi,map_error,1,1,removed_failed_links_kept_other_links,,,
+P188,실루기아,bmpi,no_label,2,1,added_google_fallback,GOOGLE-QA-REPAIR-P188,Google Maps 검색: 실루기아,https://www.google.com/maps/search/?api=1&query=%EC%8B%A4%EB%A3%A8%EA%B8%B0%EC%95%84
+P305,쓴 물,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P305,Google Maps 검색: 쓴 물,https://www.google.com/maps/search/?api=1&query=%EC%93%B4%20%EB%AC%BC
+P101,아라랏산,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P101,Google Maps 검색: 아라랏산,https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%9D%BC%EB%9E%8F%EC%82%B0
+P034,아르논 골짜기,bmpi,no_label,4,1,added_google_fallback,GOOGLE-QA-REPAIR-P034,Google Maps 검색: 아르논 골짜기,https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%A5%B4%EB%85%BC%20%EA%B3%A8%EC%A7%9C%EA%B8%B0
+P190,아벡,bmpi,no_label,2,1,added_google_fallback,GOOGLE-QA-REPAIR-P190,Google Maps 검색: 아벡,https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%B2%A1
+P315,아빌레네,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P315,Google Maps 검색: 아빌레네,https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%B9%8C%EB%A0%88%EB%84%A4
+P144,아스글론,bmpi,no_label,4,1,added_google_fallback,GOOGLE-QA-REPAIR-P144,Google Maps 검색: 아스글론,https://www.google.com/maps/search/?api=1&query=%EC%95%84%EC%8A%A4%EA%B8%80%EB%A1%A0
+P316,아스다롯,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P316,Google Maps 검색: 아스다롯,https://www.google.com/maps/search/?api=1&query=%EC%95%84%EC%8A%A4%EB%8B%A4%EB%A1%AF
+P145,아스돗,bmpi,no_label,4,1,added_google_fallback,GOOGLE-QA-REPAIR-P145,Google Maps 검색: 아스돗,https://www.google.com/maps/search/?api=1&query=%EC%95%84%EC%8A%A4%EB%8F%97
+P044,아얄론 골짜기,bmpi,map_error,1,1,removed_failed_links_kept_other_links,,,
+P134,에그론,bmpi,no_label,5,1,added_google_fallback,GOOGLE-QA-REPAIR-P134,Google Maps 검색: 에그론,https://www.google.com/maps/search/?api=1&query=%EC%97%90%EA%B7%B8%EB%A1%A0
+P329,에글론,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P329,Google Maps 검색: 에글론,https://www.google.com/maps/search/?api=1&query=%EC%97%90%EA%B8%80%EB%A1%A0
+P330,에논,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P330,Google Maps 검색: 에논,https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%85%BC
+P331,에델,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P331,Google Maps 검색: 에델,https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8D%B8
+P333,엔게디,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P333,Google Maps 검색: 엔게디,https://www.google.com/maps/search/?api=1&query=%EC%97%94%EA%B2%8C%EB%94%94
+P359,엘라 골짜기,external,map_error,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P359,Google Maps 검색: 엘라 골짜기,https://www.google.com/maps/search/?api=1&query=%EC%97%98%EB%9D%BC%20%EA%B3%A8%EC%A7%9C%EA%B8%B0
+P334,엘랏,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P334,Google Maps 검색: 엘랏,https://www.google.com/maps/search/?api=1&query=%EC%97%98%EB%9E%8F
+P053,여부스,bmpi,no_label,3,1,added_google_fallback,GOOGLE-QA-REPAIR-P053,Google Maps 검색: 여부스,https://www.google.com/maps/search/?api=1&query=%EC%97%AC%EB%B6%80%EC%8A%A4
+P116,염해,bmpi,no_label,14,1,added_google_fallback,GOOGLE-QA-REPAIR-P116,Google Maps 검색: 염해,https://www.google.com/maps/search/?api=1&query=%EC%97%BC%ED%95%B4
+P337,온,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P337,Google Maps 검색: 온,https://www.google.com/maps/search/?api=1&query=%EC%98%A8
+P341,이두래,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P341,Google Maps 검색: 이두래,https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%91%90%EB%9E%98
+P342,이두매,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P342,Google Maps 검색: 이두매,https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EB%91%90%EB%A7%A4
+P343,이온,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P343,Google Maps 검색: 이온,https://www.google.com/maps/search/?api=1&query=%EC%9D%B4%EC%98%A8
+P350,트랜스요단,bmpi,no_label,1,1,added_google_fallback,GOOGLE-QA-REPAIR-P350,Google Maps 검색: 트랜스요단,https://www.google.com/maps/search/?api=1&query=%ED%8A%B8%EB%9E%9C%EC%8A%A4%EC%9A%94%EB%8B%A8
+P045,하솔,bmpi,no_label,7,1,added_google_fallback,GOOGLE-QA-REPAIR-P045,Google Maps 검색: 하솔,https://www.google.com/maps/search/?api=1&query=%ED%95%98%EC%86%94
+P148,힛데겔,bmpi,no_label,4,1,added_google_fallback,GOOGLE-QA-REPAIR-P148,Google Maps 검색: 힛데겔,https://www.google.com/maps/search/?api=1&query=%ED%9E%9B%EB%8D%B0%EA%B2%94
+P014,세겜,not_checked_or_unlinked,unlinked,0,1,added_google_for_unlinked_place,GOOGLE-QA-REPAIR-P014,Google Maps 검색: 세겜,https://www.google.com/maps/search/?api=1&query=%EC%84%B8%EA%B2%9C
+P375,실로암 못,not_checked_or_unlinked,unlinked,0,1,added_google_for_unlinked_place,GOOGLE-QA-REPAIR-P375,Google Maps 검색: 실로암 못,https://www.google.com/maps/search/?api=1&query=%EC%8B%A4%EB%A1%9C%EC%95%94%20%EB%AA%BB
+P376,기드론 골짜기,not_checked_or_unlinked,unlinked,0,1,added_google_for_unlinked_place,GOOGLE-QA-REPAIR-P376,Google Maps 검색: 기드론 골짜기,https://www.google.com/maps/search/?api=1&query=%EA%B8%B0%EB%93%9C%EB%A1%A0%20%EA%B3%A8%EC%A7%9C%EA%B8%B0
+P377,힌놈의 골짜기,not_checked_or_unlinked,unlinked,0,1,added_google_for_unlinked_place,GOOGLE-QA-REPAIR-P377,Google Maps 검색: 힌놈의 골짜기,https://www.google.com/maps/search/?api=1&query=%ED%9E%8C%EB%86%88%EC%9D%98%20%EA%B3%A8%EC%A7%9C%EA%B8%B0
+P399,아말렉 광야,not_checked_or_unlinked,unlinked,0,1,added_google_for_unlinked_place,GOOGLE-QA-REPAIR-P399,Google Maps 검색: 아말렉 광야,https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%A7%90%EB%A0%89%20%EA%B4%91%EC%95%BC
+P407,기혼 샘,not_checked_or_unlinked,unlinked,0,1,added_google_for_unlinked_place,GOOGLE-QA-REPAIR-P407,Google Maps 검색: 기혼 샘,https://www.google.com/maps/search/?api=1&query=%EA%B8%B0%ED%98%BC%20%EC%83%98

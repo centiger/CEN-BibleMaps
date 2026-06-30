@@ -1,0 +1,5 @@
+bmpi_authority_checked: 763
+bmpi_wrong_links: 0
+google_fallback_added: 46
+total_links_after: 867
+hotfix: trust filter tightened: removed short-label substring false positives such as 가사 → 가사로 가는 길

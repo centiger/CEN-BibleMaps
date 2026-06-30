@@ -1782,7 +1782,7 @@
     "summary": "시내산은 하나님께서 이스라엘과 언약을 맺으시고 십계명과 율법을 주신 장소이다. 출애굽 이후 이스라엘 공동체가 하나님의 백성으로 세워진 중심 무대이다.",
     "place_meaning": "시내산은 구원의 백성이 언약의 백성으로 변화된 장소이다. 출애굽이 구원의 사건이라면 시내산은 하나님의 백성으로 살아가는 법이 주어진 장소이다.",
     "search_keywords": [
-      "시내산",
+      "시내산(시나이산,호렙산)",
       "호렙산",
       "십계명",
       "율법",
@@ -2451,7 +2451,7 @@
     "summary": "요단강은 이스라엘 백성이 광야 생활을 마치고 가나안 땅으로 들어가기 위해 건넌 강이다.",
     "place_meaning": "요단강은 광야와 약속의 땅을 구분하는 경계선이다. 하나님의 인도와 능력으로 새로운 시대가 시작된 장소이다.",
     "search_keywords": [
-      "요단강",
+      "요단강(요르단강)",
       "요르단강",
       "여호수아",
       "언약궤",
@@ -6394,7 +6394,7 @@
     "id": "P068",
     "canonical_name": "수산",
     "aliases": [
-      "Susa",
+      "수사(수산)",
       "수산 궁",
       "수사 (수산궁)",
       "수산궁",
@@ -7862,7 +7862,7 @@
     "summary": "안디옥은 초대교회가 세계 선교의 중심지로 성장한 도시이며, 제자들이 처음으로 그리스도인이라 불린 곳이다.",
     "place_meaning": "안디옥은 복음이 유대인을 넘어 세계로 확장된 장소이다. 교회가 선교 공동체로 변화된 상징적인 도시이다.",
     "search_keywords": [
-      "안디옥",
+      "안디옥(안티오키아)",
       "수리아 안디옥",
       "그리스도인",
       "바울",
@@ -8529,7 +8529,7 @@
     "summary": "아덴은 바울이 아레오바고에서 복음을 전하며 헬라 철학자들과 대화한 도시이다.",
     "place_meaning": "아덴은 복음과 문화, 신앙과 철학이 만난 장소이다. 바울은 이곳에서 사람들의 문화와 사상을 이해하면서도 복음의 본질을 선포하였다.",
     "search_keywords": [
-      "아덴",
+      "아덴(아테네)",
       "아테네",
       "Athens",
       "바울",
@@ -9424,7 +9424,7 @@
     "summary": "에베소는 바울이 장기간 사역한 소아시아의 중심 도시이며, 초대교회의 중요한 거점이다.",
     "place_meaning": "에베소는 복음이 도시 문화와 우상숭배의 중심에서 강력하게 역사한 장소이다.",
     "search_keywords": [
-      "에베소",
+      "에베소(에페수스)",
       "Ephesus",
       "바울",
       "디모데",
@@ -10976,8 +10976,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "염해",
-      "사해"
+      "염해(아라바 바다, 사해)"
     ],
     "card_title": "염해",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -11335,7 +11334,7 @@
     "summary": "야곱 가문이 이주하여 번성했으나 노예화된 곳으로, 모세를 통한 하나님의 위대한 구원(출애굽)의 배경이 되는 제국",
     "place_meaning": "",
     "search_keywords": [
-      "애굽",
+      "애굽(이집트)",
       "애굽 (이집트)",
       "Egypt"
     ],
@@ -11637,7 +11636,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "유브라데 강"
+      "유브라데 강(유프라테스 강)"
     ],
     "card_title": "유브라데 강",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -13072,7 +13071,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "아람",
+      "아람(수리아, 시리아)",
       "아람(수리아)"
     ],
     "card_title": "아람",
@@ -14739,8 +14738,6 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "하데겔(티그리스) 강",
-      "힛데겔",
       "힛데겔(티그리스) 강"
     ],
     "card_title": "힛데겔",
@@ -16248,7 +16245,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "앗수르",
+      "앗수르(아시리아)",
       "앗수르 제국",
       "앗수르(앗시리아)"
     ],
@@ -24245,7 +24242,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "사모"
+      "사모(사모스)"
     ],
     "card_title": "사모",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -24304,7 +24301,7 @@
     "summary": "구브로 섬 동단의 대항구 도시로 바울과 바나바가 1차 선교 여행을 시작하며 최초로 상륙하여 유대인의 여러 회당에서 복음을 선포한 장소",
     "place_meaning": "",
     "search_keywords": [
-      "살라미",
+      "살라미(살라미스)",
       "Salamis"
     ],
     "card_title": "살라미",
@@ -24374,7 +24371,7 @@
     "summary": "세례 요한이 요단강 동편뿐 아니라 물이 풍부하여 세례를 베풀기에 적합하여 선택했던 사마리아 지경 인근의 고대 지명",
     "place_meaning": "",
     "search_keywords": [
-      "살림",
+      "살렘(살림)",
       "Salim"
     ],
     "card_title": "살림",
@@ -24499,7 +24496,7 @@
     "summary": "요한계시록 일겁 교회 중 하나로 극심한 환난과 궁핍 속에서도 실상은 부요한 자라 칭찬받으며 '죽도록 충성하라' 권면받은 교회",
     "place_meaning": "",
     "search_keywords": [
-      "서머나",
+      "서머나(스미르나)",
       "Smyrna"
     ],
     "card_title": "서머나",
@@ -24680,7 +24677,7 @@
     "summary": "로마로 압송되던 바울을 태운 알렉산드리아 배가 멜리데 섬 난파 후 이탈리아로 향하는 항해 중에 사흘간 기항했던 시칠리아 섬의 중심 대도시",
     "place_meaning": "",
     "search_keywords": [
-      "수라구라",
+      "수라구라(시라쿠사)",
       "수라구사",
       "Syracuse"
     ],
@@ -24983,7 +24980,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "시내"
+      "시내(시나이)"
     ],
     "card_title": "시내",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -25038,7 +25035,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "시내 반도"
+      "시내 반도(시나이반도)"
     ],
     "card_title": "시내 반도",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -25208,7 +25205,7 @@
     "summary": "이스라엘이 요단강을 건너기 전 마지막으로 진을 쳤던 모압 평지의 장소로 모압 여인들과 행음하여 염병의 징계를 받았던 아픔의 땅",
     "place_meaning": "",
     "search_keywords": [
-      "신딤(아카시아)",
+      "싯딤(싯팀)",
       "싯딤",
       "Shittim"
     ],
@@ -25669,7 +25666,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "아리마대"
+      "아리마대(아리마태아)"
     ],
     "card_title": "아리마대",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -25798,7 +25795,7 @@
     "summary": "마게도냐 지방의 도시로 바울과 실라가 빌립보 감옥에서 기적으로 성벽이 열려 놓인 후 데살로니가로 이동하는 중에 거쳐 지나간 전도 경로",
     "place_meaning": "",
     "search_keywords": [
-      "아볼로니아",
+      "아볼로니아(아폴로니아)",
       "Apollonia"
     ],
     "card_title": "아볼로니아",
@@ -26029,7 +26026,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "아하스"
+      "야하스"
     ],
     "card_title": "아하스",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -26084,7 +26081,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "악갓"
+      "악갓(아카드)"
     ],
     "card_title": "악갓",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -26139,7 +26136,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "악메다"
+      "악메다(엑바타나)"
     ],
     "card_title": "악메다",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -26253,7 +26250,7 @@
     "summary": "빌립보와 데살로니가 사이에 있던 마게도냐의 군사, 상업적 대도시로 바울 일행이 에그나티아 대로를 따라 전도 여행 시 통과한 성읍",
     "place_meaning": "",
     "search_keywords": [
-      "암비볼리",
+      "암비볼리(암피폴리스)",
       "Amphipolis"
     ],
     "card_title": "암비볼리",
@@ -26319,7 +26316,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "압느엘"
+      "얍느엘"
     ],
     "card_title": "압느엘",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -26429,7 +26426,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "압비오 저자"
+      "압비오 광장(아파우스 광장)"
     ],
     "card_title": "압비오 저자",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -26488,7 +26485,7 @@
     "summary": "소아시아 밤빌리아 지방의 주요 항구도시로 사도 바울이 1차 선교 여행의 모든 일정을 성공적으로 마치고 파송 교회인 안디옥으로 배 타고 돌아간 항구",
     "place_meaning": "",
     "search_keywords": [
-      "앗달리아",
+      "앗달리아(아탈리아)",
       "Attalia"
     ],
     "card_title": "앗달리아",
@@ -26751,7 +26748,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "에논"
+      "하살에논(하살에난)"
     ],
     "card_title": "에논",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -27141,7 +27138,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "여아림"
+      "여아림(기럇 여아림)"
     ],
     "card_title": "여아림",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -27198,8 +27195,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "온",
-      "헬리오폴리스"
+      "온(헬리오폴리스)"
     ],
     "card_title": "온",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -27326,7 +27322,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "유대"
+      "유대(유대아)"
     ],
     "card_title": "유대",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -27381,7 +27377,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "이달리아"
+      "이달리아(이탈리아)"
     ],
     "card_title": "이달리아",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -27491,7 +27487,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "이두매"
+      "이두매(에돔)"
     ],
     "card_title": "이두매",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -27876,7 +27872,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "트라키아"
+      "사모드라게(트라키아)"
     ],
     "card_title": "트라키아",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -27986,7 +27982,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "트레이스 타베르네"
+      "트레이스 타베르네(트레이스 타베르나이)"
     ],
     "card_title": "트레이스 타베르네",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -28041,7 +28037,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "팁사"
+      "딥사(팁사,딥사흐)"
     ],
     "card_title": "팁사",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -28278,7 +28274,7 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "헷",
+      "헷(히타이트)",
       "헷 제국"
     ],
     "card_title": "헷",
@@ -31580,7 +31576,7 @@
     "summary": "야곱이 세겜 추장에게 사서 아들 요셉에게 주었던 유서 깊은 우물로 예수님이 행로에 지쳐 앉으셨다가 사마리아 여인에게 영원한 구원의 물을 주신 수가성의 샘",
     "place_meaning": "",
     "search_keywords": [
-      "야곱의 우물",
+      "야곱의 우물(수가)",
       "Jacob's Well"
     ],
     "card_title": "야곱의 우물",

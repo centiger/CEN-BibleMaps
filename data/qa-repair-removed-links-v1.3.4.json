@@ -1,0 +1,1106 @@
+{
+  "project": "CEN BibleMaps",
+  "dataset": "qa repair removed links",
+  "version": "1.3.4",
+  "count": 122,
+  "removed": [
+    {
+      "place_id": "P121",
+      "canonical_name": "가사",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M001",
+      "map_title": "창세기의 세계",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_01.jpg"
+    },
+    {
+      "place_id": "P231",
+      "canonical_name": "나헷",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M001",
+      "map_title": "창세기의 세계",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_01.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M001",
+      "map_title": "창세기의 세계",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_01.jpg"
+    },
+    {
+      "place_id": "P101",
+      "canonical_name": "아라랏산",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M001",
+      "map_title": "창세기의 세계",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_01.jpg"
+    },
+    {
+      "place_id": "P053",
+      "canonical_name": "여부스",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M001",
+      "map_title": "창세기의 세계",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_01.jpg"
+    },
+    {
+      "place_id": "P337",
+      "canonical_name": "온",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M001",
+      "map_title": "창세기의 세계",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_01.jpg"
+    },
+    {
+      "place_id": "P148",
+      "canonical_name": "힛데겔",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M001",
+      "map_title": "창세기의 세계",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_01.jpg"
+    },
+    {
+      "place_id": "P148",
+      "canonical_name": "힛데겔",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M002",
+      "map_title": "아브라함의 이동 경로",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_02.jpg"
+    },
+    {
+      "place_id": "P305",
+      "canonical_name": "쓴 물",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M003",
+      "map_title": "출애굽의 경로",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_03.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M005",
+      "map_title": "도피성",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_05.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M006",
+      "map_title": "헤스본 왕 시혼과 바산 왕 옥을 물리치다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_06.jpg"
+    },
+    {
+      "place_id": "P034",
+      "canonical_name": "아르논 골짜기",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M006",
+      "map_title": "헤스본 왕 시혼과 바산 왕 옥을 물리치다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_06.jpg"
+    },
+    {
+      "place_id": "P053",
+      "canonical_name": "여부스",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M006",
+      "map_title": "헤스본 왕 시혼과 바산 왕 옥을 물리치다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_06.jpg"
+    },
+    {
+      "place_id": "P152",
+      "canonical_name": "게셀",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M007",
+      "map_title": "여호수아의 전투: 가나안 정복",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg"
+    },
+    {
+      "place_id": "P265",
+      "canonical_name": "미락 골짜기",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M007",
+      "map_title": "여호수아의 전투: 가나안 정복",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M007",
+      "map_title": "여호수아의 전투: 가나안 정복",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg"
+    },
+    {
+      "place_id": "P329",
+      "canonical_name": "에글론",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M007",
+      "map_title": "여호수아의 전투: 가나안 정복",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg"
+    },
+    {
+      "place_id": "P053",
+      "canonical_name": "여부스",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M007",
+      "map_title": "여호수아의 전투: 가나안 정복",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg"
+    },
+    {
+      "place_id": "P045",
+      "canonical_name": "하솔",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M007",
+      "map_title": "여호수아의 전투: 가나안 정복",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg"
+    },
+    {
+      "place_id": "P126",
+      "canonical_name": "가드",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P121",
+      "canonical_name": "가사",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P061",
+      "canonical_name": "길르앗 라못",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P172",
+      "canonical_name": "돌",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P247",
+      "canonical_name": "딤낫 세라",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P158",
+      "canonical_name": "레바논 산",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P123",
+      "canonical_name": "블레셋",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P034",
+      "canonical_name": "아르논 골짜기",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P144",
+      "canonical_name": "아스글론",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P316",
+      "canonical_name": "아스다롯",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P145",
+      "canonical_name": "아스돗",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P134",
+      "canonical_name": "에그론",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P333",
+      "canonical_name": "엔게디",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P045",
+      "canonical_name": "하솔",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M008",
+      "map_title": "가나안의 분할",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_39.jpg"
+    },
+    {
+      "place_id": "P126",
+      "canonical_name": "가드",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M009",
+      "map_title": "이스라엘이 주변 백성들을 쳐부수다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_09.jpg"
+    },
+    {
+      "place_id": "P121",
+      "canonical_name": "가사",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M009",
+      "map_title": "이스라엘이 주변 백성들을 쳐부수다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_09.jpg"
+    },
+    {
+      "place_id": "P061",
+      "canonical_name": "길르앗 라못",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M009",
+      "map_title": "이스라엘이 주변 백성들을 쳐부수다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_09.jpg"
+    },
+    {
+      "place_id": "P123",
+      "canonical_name": "블레셋",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M009",
+      "map_title": "이스라엘이 주변 백성들을 쳐부수다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_09.jpg"
+    },
+    {
+      "place_id": "P144",
+      "canonical_name": "아스글론",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M009",
+      "map_title": "이스라엘이 주변 백성들을 쳐부수다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_09.jpg"
+    },
+    {
+      "place_id": "P145",
+      "canonical_name": "아스돗",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M009",
+      "map_title": "이스라엘이 주변 백성들을 쳐부수다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_09.jpg"
+    },
+    {
+      "place_id": "P134",
+      "canonical_name": "에그론",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M009",
+      "map_title": "이스라엘이 주변 백성들을 쳐부수다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_09.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M009",
+      "map_title": "이스라엘이 주변 백성들을 쳐부수다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_09.jpg"
+    },
+    {
+      "place_id": "P045",
+      "canonical_name": "하솔",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M009",
+      "map_title": "이스라엘이 주변 백성들을 쳐부수다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_09.jpg"
+    },
+    {
+      "place_id": "P034",
+      "canonical_name": "아르논 골짜기",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M010",
+      "map_title": "모압 사람 룻",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_10.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M010",
+      "map_title": "모압 사람 룻",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_10.jpg"
+    },
+    {
+      "place_id": "P126",
+      "canonical_name": "가드",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M011",
+      "map_title": "통일 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_11.jpg"
+    },
+    {
+      "place_id": "P121",
+      "canonical_name": "가사",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M011",
+      "map_title": "통일 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_11.jpg"
+    },
+    {
+      "place_id": "P052",
+      "canonical_name": "기브아",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M011",
+      "map_title": "통일 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_11.jpg"
+    },
+    {
+      "place_id": "P061",
+      "canonical_name": "길르앗 라못",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M011",
+      "map_title": "통일 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_11.jpg"
+    },
+    {
+      "place_id": "P158",
+      "canonical_name": "레바논 산",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M011",
+      "map_title": "통일 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_11.jpg"
+    },
+    {
+      "place_id": "P123",
+      "canonical_name": "블레셋",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M011",
+      "map_title": "통일 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_11.jpg"
+    },
+    {
+      "place_id": "P144",
+      "canonical_name": "아스글론",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M011",
+      "map_title": "통일 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_11.jpg"
+    },
+    {
+      "place_id": "P145",
+      "canonical_name": "아스돗",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M011",
+      "map_title": "통일 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_11.jpg"
+    },
+    {
+      "place_id": "P134",
+      "canonical_name": "에그론",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M011",
+      "map_title": "통일 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_11.jpg"
+    },
+    {
+      "place_id": "P331",
+      "canonical_name": "에델",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M011",
+      "map_title": "통일 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_11.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M011",
+      "map_title": "통일 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_11.jpg"
+    },
+    {
+      "place_id": "P045",
+      "canonical_name": "하솔",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M011",
+      "map_title": "통일 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_11.jpg"
+    },
+    {
+      "place_id": "P126",
+      "canonical_name": "가드",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P121",
+      "canonical_name": "가사",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P152",
+      "canonical_name": "게셀",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P061",
+      "canonical_name": "길르앗 라못",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P228",
+      "canonical_name": "깁브돈",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P237",
+      "canonical_name": "답부아",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P060",
+      "canonical_name": "도단",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P245",
+      "canonical_name": "디르사",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P175",
+      "canonical_name": "디셉",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P158",
+      "canonical_name": "레바논 산",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P276",
+      "canonical_name": "벧세메스",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P280",
+      "canonical_name": "브누엘",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P123",
+      "canonical_name": "블레셋",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P034",
+      "canonical_name": "아르논 골짜기",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P190",
+      "canonical_name": "아벡",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P134",
+      "canonical_name": "에그론",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P343",
+      "canonical_name": "이온",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P045",
+      "canonical_name": "하솔",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M012",
+      "map_title": "분단된 이스라엘 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_40.jpg"
+    },
+    {
+      "place_id": "P175",
+      "canonical_name": "디셉",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M014",
+      "map_title": "엘리야의 여행",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_14.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M014",
+      "map_title": "엘리야의 여행",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_14.jpg"
+    },
+    {
+      "place_id": "P227",
+      "canonical_name": "길헤레스",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M015",
+      "map_title": "엘리사의 여행",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_15.jpg"
+    },
+    {
+      "place_id": "P121",
+      "canonical_name": "가사",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M016",
+      "map_title": "솔로몬 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_16.jpg"
+    },
+    {
+      "place_id": "P152",
+      "canonical_name": "게셀",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M016",
+      "map_title": "솔로몬 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_16.jpg"
+    },
+    {
+      "place_id": "P045",
+      "canonical_name": "하솔",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M016",
+      "map_title": "솔로몬 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_16.jpg"
+    },
+    {
+      "place_id": "P148",
+      "canonical_name": "힛데겔",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M017",
+      "map_title": "포로 생활에서 돌아오다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_17.jpg"
+    },
+    {
+      "place_id": "P148",
+      "canonical_name": "힛데겔",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M019",
+      "map_title": "바사 왕국",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_19.jpg"
+    },
+    {
+      "place_id": "P126",
+      "canonical_name": "가드",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P121",
+      "canonical_name": "가사",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P061",
+      "canonical_name": "길르앗 라못",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P172",
+      "canonical_name": "돌",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P123",
+      "canonical_name": "블레셋",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P284",
+      "canonical_name": "비블로스",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P190",
+      "canonical_name": "아벡",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P144",
+      "canonical_name": "아스글론",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P145",
+      "canonical_name": "아스돗",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P134",
+      "canonical_name": "에그론",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P334",
+      "canonical_name": "엘랏",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P350",
+      "canonical_name": "트랜스요단",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P045",
+      "canonical_name": "하솔",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M020",
+      "map_title": "여로보암 2세와 웃시야 시대의 이스라엘과 유다",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M022",
+      "map_title": "예레미야의 목회",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_22.jpg"
+    },
+    {
+      "place_id": "P123",
+      "canonical_name": "블레셋",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M024",
+      "map_title": "에스겔 시대의 나라들",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_24.jpg"
+    },
+    {
+      "place_id": "P123",
+      "canonical_name": "블레셋",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M027",
+      "map_title": "이스라엘과 유다의 선지자들",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_27.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M027",
+      "map_title": "이스라엘과 유다의 선지자들",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_27.jpg"
+    },
+    {
+      "place_id": "P216",
+      "canonical_name": "고라신",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M029",
+      "map_title": "예수 시대의 팔레스타인",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg"
+    },
+    {
+      "place_id": "P230",
+      "canonical_name": "나인",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M029",
+      "map_title": "예수 시대의 팔레스타인",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg"
+    },
+    {
+      "place_id": "P244",
+      "canonical_name": "드라고닛",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M029",
+      "map_title": "예수 시대의 팔레스타인",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg"
+    },
+    {
+      "place_id": "P081",
+      "canonical_name": "베다니",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M029",
+      "map_title": "예수 시대의 팔레스타인",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg"
+    },
+    {
+      "place_id": "P274",
+      "canonical_name": "베레아",
+      "qa_status": "map_error",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M029",
+      "map_title": "예수 시대의 팔레스타인",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg"
+    },
+    {
+      "place_id": "P277",
+      "canonical_name": "벳바게",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M029",
+      "map_title": "예수 시대의 팔레스타인",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg"
+    },
+    {
+      "place_id": "P286",
+      "canonical_name": "빌립보 가이사랴",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M029",
+      "map_title": "예수 시대의 팔레스타인",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg"
+    },
+    {
+      "place_id": "P290",
+      "canonical_name": "살림",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M029",
+      "map_title": "예수 시대의 팔레스타인",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg"
+    },
+    {
+      "place_id": "P315",
+      "canonical_name": "아빌레네",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M029",
+      "map_title": "예수 시대의 팔레스타인",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg"
+    },
+    {
+      "place_id": "P330",
+      "canonical_name": "에논",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M029",
+      "map_title": "예수 시대의 팔레스타인",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg"
+    },
+    {
+      "place_id": "P116",
+      "canonical_name": "염해",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M029",
+      "map_title": "예수 시대의 팔레스타인",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg"
+    },
+    {
+      "place_id": "P341",
+      "canonical_name": "이두래",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M029",
+      "map_title": "예수 시대의 팔레스타인",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg"
+    },
+    {
+      "place_id": "P342",
+      "canonical_name": "이두매",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M029",
+      "map_title": "예수 시대의 팔레스타인",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg"
+    },
+    {
+      "place_id": "P188",
+      "canonical_name": "실루기아",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M032",
+      "map_title": "바울의 첫 번째 여행",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_45.jpg"
+    },
+    {
+      "place_id": "P215",
+      "canonical_name": "겐그레아",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M033",
+      "map_title": "바울의 두 번째 여행",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_46.jpg"
+    },
+    {
+      "place_id": "P188",
+      "canonical_name": "실루기아",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M033",
+      "map_title": "바울의 두 번째 여행",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_46.jpg"
+    },
+    {
+      "place_id": "P233",
+      "canonical_name": "니도",
+      "qa_status": "no_label",
+      "qa_kind": "bmpi",
+      "map_id": "BMPI-M035",
+      "map_title": "로마를 향한 바울의 여정",
+      "url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_48.jpg"
+    },
+    {
+      "place_id": "P359",
+      "canonical_name": "엘라 골짜기",
+      "qa_status": "map_error",
+      "qa_kind": "external",
+      "map_id": "EXT-USER-0629-P359",
+      "map_title": "외부 지도: 엘라 골짜기",
+      "url": "https://blog.naver.com/PostView.naver?blogId=histigma_j&logNo=221362421697&categoryNo=24&parentCategoryNo=0&photoView=2"
+    },
+    {
+      "place_id": "P362",
+      "canonical_name": "멜리데섬",
+      "qa_status": "map_error",
+      "qa_kind": "external",
+      "map_id": "EXT-USER-0629-P362",
+      "map_title": "외부 지도: 멜리데섬",
+      "url": "https://blog.naver.com/holydewglory/223130729866?photoView=0"
+    },
+    {
+      "place_id": "P417",
+      "canonical_name": "다시스",
+      "qa_status": "map_error",
+      "qa_kind": "external",
+      "map_id": "EXT-USER-0629-P417",
+      "map_title": "외부 지도: 다시스",
+      "url": "https://blog.naver.com/ccc192000/223473224082?photoView=1"
+    }
+  ]
+}

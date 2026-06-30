@@ -1,0 +1,5 @@
+CEN BibleMaps v1.3.4 QA Repaired
+기준 파일: places-master(검색키워드작업).json, qa-results-20260630133201.json
+QA 문제 65건 처리: no_label 58건, map_error 7건
+제거 링크 122건, 추가 링크 64건, 최종 링크 810건
+정책: 실패한 링크 종류만 제거하고, 사용자 외부 URL 우선, 없으면 Google Maps fallback.

@@ -1,0 +1,1177 @@
+[
+  {
+    "place_id": "P062",
+    "official_name": "예스르엘",
+    "map_id": "GOOGLE-FALLBACK-P062",
+    "map_labels": [
+      "예스르엘"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 예스르엘",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%98%88%EC%8A%A4%EB%A5%B4%EC%97%98",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%98%88%EC%8A%A4%EB%A5%B4%EC%97%98",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%98%88%EC%8A%A4%EB%A5%B4%EC%97%98",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%98%88%EC%8A%A4%EB%A5%B4%EC%97%98",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P085",
+    "official_name": "마가의 다락방",
+    "map_id": "GOOGLE-FALLBACK-P085",
+    "map_labels": [
+      "마가의 다락방"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 마가의 다락방",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EA%B0%80%EC%9D%98%20%EB%8B%A4%EB%9D%BD%EB%B0%A9",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EA%B0%80%EC%9D%98%20%EB%8B%A4%EB%9D%BD%EB%B0%A9",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EA%B0%80%EC%9D%98%20%EB%8B%A4%EB%9D%BD%EB%B0%A9",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EA%B0%80%EC%9D%98%20%EB%8B%A4%EB%9D%BD%EB%B0%A9",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P099",
+    "official_name": "에덴 동산",
+    "map_id": "GOOGLE-FALLBACK-P099",
+    "map_labels": [
+      "에덴 동산"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 에덴 동산",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8D%B4%20%EB%8F%99%EC%82%B0",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8D%B4%20%EB%8F%99%EC%82%B0",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8D%B4%20%EB%8F%99%EC%82%B0",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8D%B4%20%EB%8F%99%EC%82%B0",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P100",
+    "official_name": "에덴 동쪽",
+    "map_id": "GOOGLE-FALLBACK-P100",
+    "map_labels": [
+      "에덴 동쪽"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 에덴 동쪽",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8D%B4%20%EB%8F%99%EC%AA%BD",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8D%B4%20%EB%8F%99%EC%AA%BD",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8D%B4%20%EB%8F%99%EC%AA%BD",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8D%B4%20%EB%8F%99%EC%AA%BD",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P103",
+    "official_name": "가사로 가는 길",
+    "map_id": "GOOGLE-FALLBACK-P103",
+    "map_labels": [
+      "가사로 가는 길"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 가사로 가는 길",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EA%B0%80%EC%82%AC%EB%A1%9C%20%EA%B0%80%EB%8A%94%20%EA%B8%B8",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EA%B0%80%EC%82%AC%EB%A1%9C%20%EA%B0%80%EB%8A%94%20%EA%B8%B8",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EA%B0%80%EC%82%AC%EB%A1%9C%20%EA%B0%80%EB%8A%94%20%EA%B8%B8",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EA%B0%80%EC%82%AC%EB%A1%9C%20%EA%B0%80%EB%8A%94%20%EA%B8%B8",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P363",
+    "official_name": "히에라볼리",
+    "map_id": "GOOGLE-FALLBACK-P363",
+    "map_labels": [
+      "히에라볼리"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 히에라볼리",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%ED%9E%88%EC%97%90%EB%9D%BC%EB%B3%BC%EB%A6%AC",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%ED%9E%88%EC%97%90%EB%9D%BC%EB%B3%BC%EB%A6%AC",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%ED%9E%88%EC%97%90%EB%9D%BC%EB%B3%BC%EB%A6%AC",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%ED%9E%88%EC%97%90%EB%9D%BC%EB%B3%BC%EB%A6%AC",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P364",
+    "official_name": "기손강",
+    "map_id": "GOOGLE-FALLBACK-P364",
+    "map_labels": [
+      "기손강"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 기손강",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EA%B8%B0%EC%86%90%EA%B0%95",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EA%B8%B0%EC%86%90%EA%B0%95",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EA%B8%B0%EC%86%90%EA%B0%95",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EA%B8%B0%EC%86%90%EA%B0%95",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P365",
+    "official_name": "엑바타나",
+    "map_id": "GOOGLE-FALLBACK-P365",
+    "map_labels": [
+      "엑바타나"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 엑바타나",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%91%EB%B0%94%ED%83%80%EB%82%98",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%91%EB%B0%94%ED%83%80%EB%82%98",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%91%EB%B0%94%ED%83%80%EB%82%98",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%91%EB%B0%94%ED%83%80%EB%82%98",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P369",
+    "official_name": "디스베",
+    "map_id": "GOOGLE-FALLBACK-P369",
+    "map_labels": [
+      "디스베"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 디스베",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EC%8A%A4%EB%B2%A0",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EC%8A%A4%EB%B2%A0",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EC%8A%A4%EB%B2%A0",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EC%8A%A4%EB%B2%A0",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P370",
+    "official_name": "야베스 길르앗",
+    "map_id": "GOOGLE-FALLBACK-P370",
+    "map_labels": [
+      "야베스 길르앗"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 야베스 길르앗",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%EB%B2%A0%EC%8A%A4%20%EA%B8%B8%EB%A5%B4%EC%95%97",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%EB%B2%A0%EC%8A%A4%20%EA%B8%B8%EB%A5%B4%EC%95%97",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%EB%B2%A0%EC%8A%A4%20%EA%B8%B8%EB%A5%B4%EC%95%97",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%EB%B2%A0%EC%8A%A4%20%EA%B8%B8%EB%A5%B4%EC%95%97",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P371",
+    "official_name": "아세가",
+    "map_id": "GOOGLE-FALLBACK-P371",
+    "map_labels": [
+      "아세가"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 아세가",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EC%84%B8%EA%B0%80",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EC%84%B8%EA%B0%80",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EC%84%B8%EA%B0%80",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EC%84%B8%EA%B0%80",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P372",
+    "official_name": "마레사",
+    "map_id": "GOOGLE-FALLBACK-P372",
+    "map_labels": [
+      "마레사"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 마레사",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EB%A0%88%EC%82%AC",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EB%A0%88%EC%82%AC",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EB%A0%88%EC%82%AC",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EB%A0%88%EC%82%AC",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P373",
+    "official_name": "모레셋",
+    "map_id": "GOOGLE-FALLBACK-P373",
+    "map_labels": [
+      "모레셋"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 모레셋",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%AA%A8%EB%A0%88%EC%85%8B",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%AA%A8%EB%A0%88%EC%85%8B",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%AA%A8%EB%A0%88%EC%85%8B",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%AA%A8%EB%A0%88%EC%85%8B",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P381",
+    "official_name": "보스라",
+    "map_id": "GOOGLE-FALLBACK-P381",
+    "map_labels": [
+      "보스라"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 보스라",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%B3%B4%EC%8A%A4%EB%9D%BC",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%B3%B4%EC%8A%A4%EB%9D%BC",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%B3%B4%EC%8A%A4%EB%9D%BC",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%B3%B4%EC%8A%A4%EB%9D%BC",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P383",
+    "official_name": "믹돌",
+    "map_id": "GOOGLE-FALLBACK-P383",
+    "map_labels": [
+      "믹돌"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 믹돌",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%8F%8C",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%8F%8C",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%8F%8C",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%8F%8C",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P384",
+    "official_name": "디벨라다임",
+    "map_id": "GOOGLE-FALLBACK-P384",
+    "map_labels": [
+      "디벨라다임"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 디벨라다임",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B2%A8%EB%9D%BC%EB%8B%A4%EC%9E%84",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B2%A8%EB%9D%BC%EB%8B%A4%EC%9E%84",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B2%A8%EB%9D%BC%EB%8B%A4%EC%9E%84",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B2%A8%EB%9D%BC%EB%8B%A4%EC%9E%84",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P385",
+    "official_name": "아바림산",
+    "map_id": "GOOGLE-FALLBACK-P385",
+    "map_labels": [
+      "아바림산"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 아바림산",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%B0%94%EB%A6%BC%EC%82%B0",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%B0%94%EB%A6%BC%EC%82%B0",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%B0%94%EB%A6%BC%EC%82%B0",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%B0%94%EB%A6%BC%EC%82%B0",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P386",
+    "official_name": "아로에르",
+    "map_id": "GOOGLE-FALLBACK-P386",
+    "map_labels": [
+      "아로에르"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 아로에르",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%A1%9C%EC%97%90%EB%A5%B4",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%A1%9C%EC%97%90%EB%A5%B4",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%A1%9C%EC%97%90%EB%A5%B4",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%A1%9C%EC%97%90%EB%A5%B4",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P387",
+    "official_name": "야하스",
+    "map_id": "GOOGLE-FALLBACK-P387",
+    "map_labels": [
+      "야하스"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 야하스",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%ED%95%98%EC%8A%A4",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%ED%95%98%EC%8A%A4",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%ED%95%98%EC%8A%A4",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%ED%95%98%EC%8A%A4",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P388",
+    "official_name": "야셀",
+    "map_id": "GOOGLE-FALLBACK-P388",
+    "map_labels": [
+      "야셀"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 야셀",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%EC%85%80",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%EC%85%80",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%EC%85%80",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%BC%EC%85%80",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P389",
+    "official_name": "살가",
+    "map_id": "GOOGLE-FALLBACK-P389",
+    "map_labels": [
+      "살가"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 살가",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%82%B4%EA%B0%80",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%82%B4%EA%B0%80",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%82%B4%EA%B0%80",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%82%B4%EA%B0%80",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P391",
+    "official_name": "마게다",
+    "map_id": "GOOGLE-FALLBACK-P391",
+    "map_labels": [
+      "마게다"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 마게다",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EA%B2%8C%EB%8B%A4",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EA%B2%8C%EB%8B%A4",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EA%B2%8C%EB%8B%A4",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EA%B2%8C%EB%8B%A4",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P392",
+    "official_name": "디벳",
+    "map_id": "GOOGLE-FALLBACK-P392",
+    "map_labels": [
+      "디벳"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 디벳",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B2%B3",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B2%B3",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B2%B3",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B2%B3",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P393",
+    "official_name": "소라",
+    "map_id": "GOOGLE-FALLBACK-P393",
+    "map_labels": [
+      "소라"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 소라",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%86%8C%EB%9D%BC",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%86%8C%EB%9D%BC",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%86%8C%EB%9D%BC",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%86%8C%EB%9D%BC",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P395",
+    "official_name": "레히",
+    "map_id": "GOOGLE-FALLBACK-P395",
+    "map_labels": [
+      "레히"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 레히",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%A0%88%ED%9E%88",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%A0%88%ED%9E%88",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%A0%88%ED%9E%88",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%A0%88%ED%9E%88",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P396",
+    "official_name": "엔학고레",
+    "map_id": "GOOGLE-FALLBACK-P396",
+    "map_labels": [
+      "엔학고레"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 엔학고레",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%94%ED%95%99%EA%B3%A0%EB%A0%88",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%94%ED%95%99%EA%B3%A0%EB%A0%88",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%94%ED%95%99%EA%B3%A0%EB%A0%88",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%94%ED%95%99%EA%B3%A0%EB%A0%88",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P397",
+    "official_name": "에담 바위",
+    "map_id": "GOOGLE-FALLBACK-P397",
+    "map_labels": [
+      "에담 바위"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 에담 바위",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8B%B4%20%EB%B0%94%EC%9C%84",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8B%B4%20%EB%B0%94%EC%9C%84",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8B%B4%20%EB%B0%94%EC%9C%84",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8B%B4%20%EB%B0%94%EC%9C%84",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P398",
+    "official_name": "믹마스",
+    "map_id": "GOOGLE-FALLBACK-P398",
+    "map_labels": [
+      "믹마스"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 믹마스",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%A7%88%EC%8A%A4",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%A7%88%EC%8A%A4",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%A7%88%EC%8A%A4",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%A7%88%EC%8A%A4",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P399",
+    "official_name": "믹마스",
+    "map_id": "GOOGLE-FALLBACK-P399",
+    "map_labels": [
+      "믹마스"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 믹마스",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%A7%88%EC%8A%A4",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%A7%88%EC%8A%A4",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%A7%88%EC%8A%A4",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%A7%88%EC%8A%A4",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P400",
+    "official_name": "라마 나욧",
+    "map_id": "GOOGLE-FALLBACK-P400",
+    "map_labels": [
+      "라마 나욧"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 라마 나욧",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%9D%BC%EB%A7%88%20%EB%82%98%EC%9A%A7",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%9D%BC%EB%A7%88%20%EB%82%98%EC%9A%A7",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%9D%BC%EB%A7%88%20%EB%82%98%EC%9A%A7",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%9D%BC%EB%A7%88%20%EB%82%98%EC%9A%A7",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P401",
+    "official_name": "하길라산",
+    "map_id": "GOOGLE-FALLBACK-P401",
+    "map_labels": [
+      "하길라산"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 하길라산",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%ED%95%98%EA%B8%B8%EB%9D%BC%EC%82%B0",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%ED%95%98%EA%B8%B8%EB%9D%BC%EC%82%B0",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%ED%95%98%EA%B8%B8%EB%9D%BC%EC%82%B0",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%ED%95%98%EA%B8%B8%EB%9D%BC%EC%82%B0",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P402",
+    "official_name": "바할림",
+    "map_id": "GOOGLE-FALLBACK-P402",
+    "map_labels": [
+      "바할림"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 바할림",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%B0%94%ED%95%A0%EB%A6%BC",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%B0%94%ED%95%A0%EB%A6%BC",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%B0%94%ED%95%A0%EB%A6%BC",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%B0%94%ED%95%A0%EB%A6%BC",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P403",
+    "official_name": "아벨 벧마아가",
+    "map_id": "GOOGLE-FALLBACK-P403",
+    "map_labels": [
+      "아벨 벧마아가"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 아벨 벧마아가",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%B2%A8%20%EB%B2%A7%EB%A7%88%EC%95%84%EA%B0%80",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%B2%A8%20%EB%B2%A7%EB%A7%88%EC%95%84%EA%B0%80",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%B2%A8%20%EB%B2%A7%EB%A7%88%EC%95%84%EA%B0%80",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%B2%A8%20%EB%B2%A7%EB%A7%88%EC%95%84%EA%B0%80",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P404",
+    "official_name": "기브온 못",
+    "map_id": "GOOGLE-FALLBACK-P404",
+    "map_labels": [
+      "기브온 못"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 기브온 못",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EA%B8%B0%EB%B8%8C%EC%98%A8%20%EB%AA%BB",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EA%B8%B0%EB%B8%8C%EC%98%A8%20%EB%AA%BB",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EA%B8%B0%EB%B8%8C%EC%98%A8%20%EB%AA%BB",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EA%B8%B0%EB%B8%8C%EC%98%A8%20%EB%AA%BB",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P406",
+    "official_name": "아라우나 타작마당",
+    "map_id": "GOOGLE-FALLBACK-P406",
+    "map_labels": [
+      "아라우나 타작마당"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 아라우나 타작마당",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%9D%BC%EC%9A%B0%EB%82%98%20%ED%83%80%EC%9E%91%EB%A7%88%EB%8B%B9",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%9D%BC%EC%9A%B0%EB%82%98%20%ED%83%80%EC%9E%91%EB%A7%88%EB%8B%B9",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%9D%BC%EC%9A%B0%EB%82%98%20%ED%83%80%EC%9E%91%EB%A7%88%EB%8B%B9",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%9D%BC%EC%9A%B0%EB%82%98%20%ED%83%80%EC%9E%91%EB%A7%88%EB%8B%B9",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P408",
+    "official_name": "엔로겔",
+    "map_id": "GOOGLE-FALLBACK-P408",
+    "map_labels": [
+      "엔로겔"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 엔로겔",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%94%EB%A1%9C%EA%B2%94",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%94%EB%A1%9C%EA%B2%94",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%94%EB%A1%9C%EA%B2%94",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%97%94%EB%A1%9C%EA%B2%94",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P410",
+    "official_name": "담방",
+    "map_id": "GOOGLE-FALLBACK-P410",
+    "map_labels": [
+      "담방"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 담방",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%8B%B4%EB%B0%A9",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%8B%B4%EB%B0%A9",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%8B%B4%EB%B0%A9",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%8B%B4%EB%B0%A9",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P411",
+    "official_name": "호렙산 동굴",
+    "map_id": "GOOGLE-FALLBACK-P411",
+    "map_labels": [
+      "호렙산 동굴"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 호렙산 동굴",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%ED%98%B8%EB%A0%99%EC%82%B0%20%EB%8F%99%EA%B5%B4",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%ED%98%B8%EB%A0%99%EC%82%B0%20%EB%8F%99%EA%B5%B4",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%ED%98%B8%EB%A0%99%EC%82%B0%20%EB%8F%99%EA%B5%B4",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%ED%98%B8%EB%A0%99%EC%82%B0%20%EB%8F%99%EA%B5%B4",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P412",
+    "official_name": "나봇의 포도원",
+    "map_id": "GOOGLE-FALLBACK-P412",
+    "map_labels": [
+      "나봇의 포도원"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 나봇의 포도원",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%82%98%EB%B4%87%EC%9D%98%20%ED%8F%AC%EB%8F%84%EC%9B%90",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%82%98%EB%B4%87%EC%9D%98%20%ED%8F%AC%EB%8F%84%EC%9B%90",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%82%98%EB%B4%87%EC%9D%98%20%ED%8F%AC%EB%8F%84%EC%9B%90",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%82%98%EB%B4%87%EC%9D%98%20%ED%8F%AC%EB%8F%84%EC%9B%90",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P413",
+    "official_name": "바알 살리사",
+    "map_id": "GOOGLE-FALLBACK-P413",
+    "map_labels": [
+      "바알 살리사"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 바알 살리사",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%B0%94%EC%95%8C%20%EC%82%B4%EB%A6%AC%EC%82%AC",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%B0%94%EC%95%8C%20%EC%82%B4%EB%A6%AC%EC%82%AC",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%B0%94%EC%95%8C%20%EC%82%B4%EB%A6%AC%EC%82%AC",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%B0%94%EC%95%8C%20%EC%82%B4%EB%A6%AC%EC%82%AC",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P414",
+    "official_name": "디브온",
+    "map_id": "GOOGLE-FALLBACK-P414",
+    "map_labels": [
+      "디브온"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 디브온",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B8%8C%EC%98%A8",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B8%8C%EC%98%A8",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B8%8C%EC%98%A8",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B8%8C%EC%98%A8",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P415",
+    "official_name": "스바",
+    "map_id": "GOOGLE-FALLBACK-P415",
+    "map_labels": [
+      "스바"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 스바",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%EB%B0%94",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%EB%B0%94",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%EB%B0%94",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%EB%B0%94",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P416",
+    "official_name": "오빌",
+    "map_id": "GOOGLE-FALLBACK-P416",
+    "map_labels": [
+      "오빌"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 오빌",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%98%A4%EB%B9%8C",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%98%A4%EB%B9%8C",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%98%A4%EB%B9%8C",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%98%A4%EB%B9%8C",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P418",
+    "official_name": "욥바 항구",
+    "map_id": "GOOGLE-FALLBACK-P418",
+    "map_labels": [
+      "욥바 항구"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 욥바 항구",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%9A%A5%EB%B0%94%20%ED%95%AD%EA%B5%AC",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%9A%A5%EB%B0%94%20%ED%95%AD%EA%B5%AC",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%9A%A5%EB%B0%94%20%ED%95%AD%EA%B5%AC",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%9A%A5%EB%B0%94%20%ED%95%AD%EA%B5%AC",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P419",
+    "official_name": "울래 강가",
+    "map_id": "GOOGLE-FALLBACK-P419",
+    "map_labels": [
+      "울래 강가"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 울래 강가",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%9A%B8%EB%9E%98%20%EA%B0%95%EA%B0%80",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EC%9A%B8%EB%9E%98%20%EA%B0%95%EA%B0%80",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EC%9A%B8%EB%9E%98%20%EA%B0%95%EA%B0%80",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EC%9A%B8%EB%9E%98%20%EA%B0%95%EA%B0%80",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P425",
+    "official_name": "벳새다 광야",
+    "map_id": "GOOGLE-FALLBACK-P425",
+    "map_labels": [
+      "벳새다 광야"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_0629",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 벳새다 광야",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EB%B2%B3%EC%83%88%EB%8B%A4%20%EA%B4%91%EC%95%BC",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EB%B2%B3%EC%83%88%EB%8B%A4%20%EA%B4%91%EC%95%BC",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EB%B2%B3%EC%83%88%EB%8B%A4%20%EA%B4%91%EC%95%BC",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EB%B2%B3%EC%83%88%EB%8B%A4%20%EA%B4%91%EC%95%BC",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback."
+  },
+  {
+    "place_id": "P082",
+    "official_name": "겟세마네",
+    "map_id": "GOOGLE-FALLBACK-P082",
+    "map_labels": [
+      "겟세마네"
+    ],
+    "feature_types": [
+      "google_maps_fallback"
+    ],
+    "source": "google_maps_fallback_hotfix_v1_3_1",
+    "link_type": "external_direct_map",
+    "map_type": "google_maps_fallback",
+    "map_title": "Google Maps 검색: 겟세마네",
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EA%B2%9F%EC%84%B8%EB%A7%88%EB%84%A4",
+    "primary_url": "https://www.google.com/maps/search/?api=1&query=%EA%B2%9F%EC%84%B8%EB%A7%88%EB%84%A4",
+    "alternate_url": null,
+    "preferred_url_policy": "google_maps_fallback_when_no_bmpi_or_external",
+    "map_url_status": "google_fallback_generated",
+    "official_url": "https://www.google.com/maps/search/?api=1&query=%EA%B2%9F%EC%84%B8%EB%A7%88%EB%84%A4",
+    "preferred_url": "https://www.google.com/maps/search/?api=1&query=%EA%B2%9F%EC%84%B8%EB%A7%88%EB%84%A4",
+    "url_policy": "fallback_google_maps_search",
+    "verification_status": "generated_fallback_not_biblical_map",
+    "qa_note": "HOTFIX v1.3.1: BMPI에는 겟세마네가 BDI diagram으로만 존재하고 BMPI 지도 라벨은 없으므로 Google fallback으로 전환."
+  }
+]

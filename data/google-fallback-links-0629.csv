@@ -1,0 +1,47 @@
+﻿place_id,official_name,map_id,preferred_url,map_title,qa_note
+P062,예스르엘,GOOGLE-FALLBACK-P062,https://www.google.com/maps/search/?api=1&query=%EC%98%88%EC%8A%A4%EB%A5%B4%EC%97%98,Google Maps 검색: 예스르엘,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P085,마가의 다락방,GOOGLE-FALLBACK-P085,https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EA%B0%80%EC%9D%98%20%EB%8B%A4%EB%9D%BD%EB%B0%A9,Google Maps 검색: 마가의 다락방,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P099,에덴 동산,GOOGLE-FALLBACK-P099,https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8D%B4%20%EB%8F%99%EC%82%B0,Google Maps 검색: 에덴 동산,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P100,에덴 동쪽,GOOGLE-FALLBACK-P100,https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8D%B4%20%EB%8F%99%EC%AA%BD,Google Maps 검색: 에덴 동쪽,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P103,가사로 가는 길,GOOGLE-FALLBACK-P103,https://www.google.com/maps/search/?api=1&query=%EA%B0%80%EC%82%AC%EB%A1%9C%20%EA%B0%80%EB%8A%94%20%EA%B8%B8,Google Maps 검색: 가사로 가는 길,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P363,히에라볼리,GOOGLE-FALLBACK-P363,https://www.google.com/maps/search/?api=1&query=%ED%9E%88%EC%97%90%EB%9D%BC%EB%B3%BC%EB%A6%AC,Google Maps 검색: 히에라볼리,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P364,기손강,GOOGLE-FALLBACK-P364,https://www.google.com/maps/search/?api=1&query=%EA%B8%B0%EC%86%90%EA%B0%95,Google Maps 검색: 기손강,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P365,엑바타나,GOOGLE-FALLBACK-P365,https://www.google.com/maps/search/?api=1&query=%EC%97%91%EB%B0%94%ED%83%80%EB%82%98,Google Maps 검색: 엑바타나,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P369,디스베,GOOGLE-FALLBACK-P369,https://www.google.com/maps/search/?api=1&query=%EB%94%94%EC%8A%A4%EB%B2%A0,Google Maps 검색: 디스베,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P370,야베스 길르앗,GOOGLE-FALLBACK-P370,https://www.google.com/maps/search/?api=1&query=%EC%95%BC%EB%B2%A0%EC%8A%A4%20%EA%B8%B8%EB%A5%B4%EC%95%97,Google Maps 검색: 야베스 길르앗,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P371,아세가,GOOGLE-FALLBACK-P371,https://www.google.com/maps/search/?api=1&query=%EC%95%84%EC%84%B8%EA%B0%80,Google Maps 검색: 아세가,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P372,마레사,GOOGLE-FALLBACK-P372,https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EB%A0%88%EC%82%AC,Google Maps 검색: 마레사,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P373,모레셋,GOOGLE-FALLBACK-P373,https://www.google.com/maps/search/?api=1&query=%EB%AA%A8%EB%A0%88%EC%85%8B,Google Maps 검색: 모레셋,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P381,보스라,GOOGLE-FALLBACK-P381,https://www.google.com/maps/search/?api=1&query=%EB%B3%B4%EC%8A%A4%EB%9D%BC,Google Maps 검색: 보스라,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P383,믹돌,GOOGLE-FALLBACK-P383,https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%8F%8C,Google Maps 검색: 믹돌,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P384,디벨라다임,GOOGLE-FALLBACK-P384,https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B2%A8%EB%9D%BC%EB%8B%A4%EC%9E%84,Google Maps 검색: 디벨라다임,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P385,아바림산,GOOGLE-FALLBACK-P385,https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%B0%94%EB%A6%BC%EC%82%B0,Google Maps 검색: 아바림산,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P386,아로에르,GOOGLE-FALLBACK-P386,https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%A1%9C%EC%97%90%EB%A5%B4,Google Maps 검색: 아로에르,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P387,야하스,GOOGLE-FALLBACK-P387,https://www.google.com/maps/search/?api=1&query=%EC%95%BC%ED%95%98%EC%8A%A4,Google Maps 검색: 야하스,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P388,야셀,GOOGLE-FALLBACK-P388,https://www.google.com/maps/search/?api=1&query=%EC%95%BC%EC%85%80,Google Maps 검색: 야셀,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P389,살가,GOOGLE-FALLBACK-P389,https://www.google.com/maps/search/?api=1&query=%EC%82%B4%EA%B0%80,Google Maps 검색: 살가,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P391,마게다,GOOGLE-FALLBACK-P391,https://www.google.com/maps/search/?api=1&query=%EB%A7%88%EA%B2%8C%EB%8B%A4,Google Maps 검색: 마게다,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P392,디벳,GOOGLE-FALLBACK-P392,https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B2%B3,Google Maps 검색: 디벳,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P393,소라,GOOGLE-FALLBACK-P393,https://www.google.com/maps/search/?api=1&query=%EC%86%8C%EB%9D%BC,Google Maps 검색: 소라,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P395,레히,GOOGLE-FALLBACK-P395,https://www.google.com/maps/search/?api=1&query=%EB%A0%88%ED%9E%88,Google Maps 검색: 레히,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P396,엔학고레,GOOGLE-FALLBACK-P396,https://www.google.com/maps/search/?api=1&query=%EC%97%94%ED%95%99%EA%B3%A0%EB%A0%88,Google Maps 검색: 엔학고레,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P397,에담 바위,GOOGLE-FALLBACK-P397,https://www.google.com/maps/search/?api=1&query=%EC%97%90%EB%8B%B4%20%EB%B0%94%EC%9C%84,Google Maps 검색: 에담 바위,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P398,믹마스,GOOGLE-FALLBACK-P398,https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%A7%88%EC%8A%A4,Google Maps 검색: 믹마스,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P399,믹마스,GOOGLE-FALLBACK-P399,https://www.google.com/maps/search/?api=1&query=%EB%AF%B9%EB%A7%88%EC%8A%A4,Google Maps 검색: 믹마스,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P400,라마 나욧,GOOGLE-FALLBACK-P400,https://www.google.com/maps/search/?api=1&query=%EB%9D%BC%EB%A7%88%20%EB%82%98%EC%9A%A7,Google Maps 검색: 라마 나욧,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P401,하길라산,GOOGLE-FALLBACK-P401,https://www.google.com/maps/search/?api=1&query=%ED%95%98%EA%B8%B8%EB%9D%BC%EC%82%B0,Google Maps 검색: 하길라산,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P402,바할림,GOOGLE-FALLBACK-P402,https://www.google.com/maps/search/?api=1&query=%EB%B0%94%ED%95%A0%EB%A6%BC,Google Maps 검색: 바할림,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P403,아벨 벧마아가,GOOGLE-FALLBACK-P403,https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%B2%A8%20%EB%B2%A7%EB%A7%88%EC%95%84%EA%B0%80,Google Maps 검색: 아벨 벧마아가,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P404,기브온 못,GOOGLE-FALLBACK-P404,https://www.google.com/maps/search/?api=1&query=%EA%B8%B0%EB%B8%8C%EC%98%A8%20%EB%AA%BB,Google Maps 검색: 기브온 못,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P406,아라우나 타작마당,GOOGLE-FALLBACK-P406,https://www.google.com/maps/search/?api=1&query=%EC%95%84%EB%9D%BC%EC%9A%B0%EB%82%98%20%ED%83%80%EC%9E%91%EB%A7%88%EB%8B%B9,Google Maps 검색: 아라우나 타작마당,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P408,엔로겔,GOOGLE-FALLBACK-P408,https://www.google.com/maps/search/?api=1&query=%EC%97%94%EB%A1%9C%EA%B2%94,Google Maps 검색: 엔로겔,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P410,담방,GOOGLE-FALLBACK-P410,https://www.google.com/maps/search/?api=1&query=%EB%8B%B4%EB%B0%A9,Google Maps 검색: 담방,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P411,호렙산 동굴,GOOGLE-FALLBACK-P411,https://www.google.com/maps/search/?api=1&query=%ED%98%B8%EB%A0%99%EC%82%B0%20%EB%8F%99%EA%B5%B4,Google Maps 검색: 호렙산 동굴,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P412,나봇의 포도원,GOOGLE-FALLBACK-P412,https://www.google.com/maps/search/?api=1&query=%EB%82%98%EB%B4%87%EC%9D%98%20%ED%8F%AC%EB%8F%84%EC%9B%90,Google Maps 검색: 나봇의 포도원,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P413,바알 살리사,GOOGLE-FALLBACK-P413,https://www.google.com/maps/search/?api=1&query=%EB%B0%94%EC%95%8C%20%EC%82%B4%EB%A6%AC%EC%82%AC,Google Maps 검색: 바알 살리사,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P414,디브온,GOOGLE-FALLBACK-P414,https://www.google.com/maps/search/?api=1&query=%EB%94%94%EB%B8%8C%EC%98%A8,Google Maps 검색: 디브온,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P415,스바,GOOGLE-FALLBACK-P415,https://www.google.com/maps/search/?api=1&query=%EC%8A%A4%EB%B0%94,Google Maps 검색: 스바,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P416,오빌,GOOGLE-FALLBACK-P416,https://www.google.com/maps/search/?api=1&query=%EC%98%A4%EB%B9%8C,Google Maps 검색: 오빌,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P418,욥바 항구,GOOGLE-FALLBACK-P418,https://www.google.com/maps/search/?api=1&query=%EC%9A%A5%EB%B0%94%20%ED%95%AD%EA%B5%AC,Google Maps 검색: 욥바 항구,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P419,울래 강가,GOOGLE-FALLBACK-P419,https://www.google.com/maps/search/?api=1&query=%EC%9A%B8%EB%9E%98%20%EA%B0%95%EA%B0%80,Google Maps 검색: 울래 강가,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.
+P425,벳새다 광야,GOOGLE-FALLBACK-P425,https://www.google.com/maps/search/?api=1&query=%EB%B2%B3%EC%83%88%EB%8B%A4%20%EA%B4%91%EC%95%BC,Google Maps 검색: 벳새다 광야,BMPI/사용자 제공 외부 URL이 없는 경우 현대 위치 확인용 Google Maps 검색 fallback.

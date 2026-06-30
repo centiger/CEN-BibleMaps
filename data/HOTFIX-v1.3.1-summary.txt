@@ -1,0 +1,5 @@
+CEN BibleMaps HOTFIX v1.3.1
+- 겟세마네 오류 수정: P082에 붙어 있던 유다 BMPI 링크는 실제 원인상 place_id drift였음.
+- BMPI 링크 place_id를 현재 places-master 기준으로 재매핑: 142건
+- 겟세마네는 BMPI 지도 라벨이 없고 BDI diagram만 있으므로 Google fallback 추가.
+- 기존 데이터 삭제 없이 링크 ID 교정 및 fallback만 반영.
