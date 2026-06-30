@@ -14718,7 +14718,7 @@
   },
   {
     "id": "P148",
-    "canonical_name": "힛데겔",
+    "canonical_name": "힛데겔(티그리스강)",
     "map_refs": [
       "BMPI-M001",
       "BMPI-M002",
@@ -28023,7 +28023,7 @@
   },
   {
     "id": "P352",
-    "canonical_name": "팁사",
+    "canonical_name": "딥사(팁사,딥사흐)",
     "map_refs": [
       "BMPI-M016"
     ],
@@ -28258,7 +28258,7 @@
   },
   {
     "id": "P356",
-    "canonical_name": "헷",
+    "canonical_name": "헷(히타이트)",
     "map_refs": [
       "BMPI-M002"
     ],
