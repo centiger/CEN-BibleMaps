@@ -1,0 +1,6 @@
+{
+  "version": "1.3.5",
+  "display_name_mappings_applied": 40,
+  "missing_canonical_names": [],
+  "note": "canonical_name unchanged; display_name added; app.js uses display_name for visible labels and keeps canonical_name for matching."
+}

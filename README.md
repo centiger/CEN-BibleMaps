@@ -31,3 +31,9 @@ Map First 원칙 기반 배포용 최종 PWA입니다.
 - 사용자 제공 외부 지도 URL 반영: 58건
 - URL 공란 검토 목록: 46건 (`data/external-map-links-missing-url-review.csv`)
 - 최종 배포 전 실제 지도 표기 QA 필요
+
+
+## v1.3.5 Display Name Patch
+- canonical_name은 유지했습니다.
+- 검색키워드 수정내역.txt의 병기명을 display_name으로 반영했습니다.
+- PWA 화면 출력은 display_name 우선, 없으면 canonical_name으로 표시됩니다.

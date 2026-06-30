@@ -79,7 +79,8 @@
     const prev = qaResults[id] || {};
     qaResults[id] = {
       place_id: id,
-      canonical_name: p._name,
+      canonical_name: p._canonicalName || placeName(p),
+      display_name: p._name,
       qa_kind: qaKindForPlace(p),
       status,
       memo: prev.memo || '',
@@ -102,7 +103,7 @@
     const payload = {
       project: 'CEN BibleMaps',
       dataset: 'QA results from PWA localStorage',
-      version: '1.3.3',
+      version: '1.3.5',
       exported_at: now.toISOString(),
       storage_key: QA_STORAGE_KEY,
       total_places: places.length,
@@ -119,7 +120,9 @@
     URL.revokeObjectURL(a.href);
     a.remove();
   }
+  // canonicalName은 DB/링크 매칭용, displayName은 화면 표시용입니다.
   const placeName = (p) => p.canonical_name || p.official_name || p.name || p.card_title || p.title || '';
+  const displayName = (p) => p.display_name || p.displayName || p.card_title || placeName(p);
   const featureText = (p) => text(p.feature_type || p.category || p.bmpi_feature_types || '');
   const eraText = (p) => text(p.era || p.eras || p.period || '');
   const summaryText = (p) => p.summary || p.card_body || p.biblical_places_note || p.place_meaning || '지도에서 위치를 확인할 수 있는 성경 지명입니다.';
@@ -238,6 +241,7 @@
     const aliasRecs = aliasRecordsForPlace(p);
     return compact([
       placeName(p),
+      displayName(p),
       p.canonical_name,
       p.official_name,
       p.bmpi_map_labels,
@@ -250,7 +254,7 @@
     const ids = arr(p._ids || p.id).map(String);
     let out = [];
     ids.forEach(id => out.push(...(linksByPlaceId.get(id) || [])));
-    const keys = [placeName(p), ...(arr(p.aliases)), ...(arr(p.search_keywords))].map(norm).filter(Boolean);
+    const keys = [placeName(p), displayName(p), ...(arr(p.aliases)), ...(arr(p.search_keywords))].map(norm).filter(Boolean);
     keys.forEach(k => out.push(...(linksByName.get(k) || [])));
     const seen = new Set();
     return out.filter(l => {
@@ -286,7 +290,8 @@
       const ls = directLinks(linksForPlace(p));
       p._links = ls;
       p._mapCount = ls.length;
-      p._name = placeName(p);
+      p._name = displayName(p);
+      p._canonicalName = placeName(p);
       p._bmpiSearchTerms = bmpiSearchTermsForPlace(p, ls);
       p._bmpiSearchText = p._bmpiSearchTerms.map(text).join(' ');
       return p;

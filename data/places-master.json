@@ -1794,7 +1794,9 @@
       "하나님의 산",
       "Mount Sinai",
       "시내 산",
-      "시내 산으로"
+      "시내 산으로",
+      "시나이산",
+      "시내산"
     ],
     "card_title": "시내산",
     "card_subtitle": "십계명과 언약이 주어진 하나님의 산",
@@ -1863,7 +1865,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_14.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "시내산(시나이산,호렙산)"
   },
   {
     "id": "P031",
@@ -2466,7 +2469,8 @@
       "Jordan River (Naaman)",
       "요단강 (떠오른 도끼)",
       "Jordan River (Axe)",
-      "요단 강"
+      "요단 강",
+      "요단강"
     ],
     "card_title": "요단강",
     "card_subtitle": "광야를 넘어 약속의 땅으로 들어간 관문",
@@ -2646,7 +2650,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "요단강(요르단강)"
   },
   {
     "id": "P038",
@@ -6443,7 +6448,9 @@
       "페르시아",
       "바사",
       "수사 (수산궁)",
-      "Susa"
+      "Susa",
+      "수산(수사)",
+      "수사"
     ],
     "card_title": "수산",
     "card_subtitle": "에스더와 부림절의 이야기가 펼쳐진 페르시아 수도",
@@ -6520,7 +6527,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_23.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "수산(수사)"
   },
   {
     "id": "P069",
@@ -7872,7 +7880,9 @@
       "베드로",
       "이방인",
       "사도행전",
-      "Antioch"
+      "Antioch",
+      "안티오키아",
+      "안디옥"
     ],
     "card_title": "안디옥",
     "card_subtitle": "그리스도인이라는 이름이 처음 사용된 선교의 도시",
@@ -7971,7 +7981,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_47.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "안디옥(안티오키아)"
   },
   {
     "id": "P088",
@@ -8539,7 +8550,8 @@
       "스토아",
       "에피쿠로스",
       "사도행전",
-      "아덴 (아테네)"
+      "아덴 (아테네)",
+      "아덴"
     ],
     "card_title": "아덴",
     "card_subtitle": "복음이 헬라 철학 세계와 만난 도시",
@@ -8616,7 +8628,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_46.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "아덴(아테네)"
   },
   {
     "id": "P094",
@@ -9433,7 +9446,9 @@
       "아데미",
       "에베소서",
       "초대교회",
-      "소아시아"
+      "소아시아",
+      "에페수스",
+      "에베소"
     ],
     "card_title": "에베소",
     "card_subtitle": "바울과 요한의 사역이 이어진 소아시아의 핵심 도시",
@@ -9521,7 +9536,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_36.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "에베소(에페수스)"
   },
   {
     "id": "P106",
@@ -10976,7 +10992,10 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "염해(아라바 바다, 사해)"
+      "염해(아라바 바다, 사해)",
+      "아라바 바다",
+      "사해",
+      "염해"
     ],
     "card_title": "염해",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -11145,7 +11164,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "염해(아라바 바다, 사해)"
   },
   {
     "id": "P117",
@@ -11336,7 +11356,9 @@
     "search_keywords": [
       "애굽(이집트)",
       "애굽 (이집트)",
-      "Egypt"
+      "Egypt",
+      "이집트",
+      "애굽"
     ],
     "card_title": "애굽",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -11463,7 +11485,8 @@
         "alternate_url": null,
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "애굽(이집트)"
   },
   {
     "id": "P119",
@@ -11636,7 +11659,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "유브라데 강(유프라테스 강)"
+      "유브라데 강(유프라테스 강)",
+      "유프라테스 강",
+      "유브라데 강"
     ],
     "card_title": "유브라데 강",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -11743,7 +11768,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_26.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "유브라데 강(유프라테스 강)"
   },
   {
     "id": "P121",
@@ -13072,7 +13098,11 @@
     "place_meaning": "",
     "search_keywords": [
       "아람(수리아, 시리아)",
-      "아람(수리아)"
+      "아람(수리아)",
+      "아람(시리아, 수리아)",
+      "시리아",
+      "수리아",
+      "아람"
     ],
     "card_title": "아람",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -13180,7 +13210,8 @@
         "alternate_url": null,
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "아람(시리아, 수리아)"
   },
   {
     "id": "P133",
@@ -14718,7 +14749,7 @@
   },
   {
     "id": "P148",
-    "canonical_name": "힛데겔(티그리스강)",
+    "canonical_name": "힛데겔",
     "map_refs": [
       "BMPI-M001",
       "BMPI-M002",
@@ -14738,7 +14769,10 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "힛데겔(티그리스) 강"
+      "힛데겔(티그리스) 강",
+      "힛데겔(티그리스강)",
+      "티그리스강",
+      "힛데겔"
     ],
     "card_title": "힛데겔",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -14807,7 +14841,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_19.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "힛데겔(티그리스강)"
   },
   {
     "id": "P149",
@@ -16247,7 +16282,9 @@
     "search_keywords": [
       "앗수르(아시리아)",
       "앗수르 제국",
-      "앗수르(앗시리아)"
+      "앗수르(앗시리아)",
+      "아시리아",
+      "앗수르"
     ],
     "card_title": "앗수르",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -16327,7 +16364,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_24.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "앗수르(아시리아)"
   },
   {
     "id": "P167",
@@ -24242,7 +24280,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "사모(사모스)"
+      "사모(사모스)",
+      "사모스",
+      "사모"
     ],
     "card_title": "사모",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -24279,7 +24319,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_47.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "사모(사모스)"
   },
   {
     "id": "P289",
@@ -24302,7 +24343,9 @@
     "place_meaning": "",
     "search_keywords": [
       "살라미(살라미스)",
-      "Salamis"
+      "Salamis",
+      "살라미스",
+      "살라미"
     ],
     "card_title": "살라미",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -24349,7 +24392,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_45.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "살라미(살라미스)"
   },
   {
     "id": "P290",
@@ -24372,7 +24416,8 @@
     "place_meaning": "",
     "search_keywords": [
       "살렘(살림)",
-      "Salim"
+      "Salim",
+      "살림"
     ],
     "card_title": "살림",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -24419,7 +24464,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "살렘(살림)"
   },
   {
     "id": "P291",
@@ -24497,7 +24543,9 @@
     "place_meaning": "",
     "search_keywords": [
       "서머나(스미르나)",
-      "Smyrna"
+      "Smyrna",
+      "스미르나",
+      "서머나"
     ],
     "card_title": "서머나",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -24544,7 +24592,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_36.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "서머나(스미르나)"
   },
   {
     "id": "P293",
@@ -24679,7 +24728,9 @@
     "search_keywords": [
       "수라구라(시라쿠사)",
       "수라구사",
-      "Syracuse"
+      "Syracuse",
+      "수라구사(시라쿠사)",
+      "시라쿠사"
     ],
     "card_title": "수라구사",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -24727,7 +24778,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_48.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "수라구사(시라쿠사)"
   },
   {
     "id": "P296",
@@ -24980,7 +25032,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "시내(시나이)"
+      "시내(시나이)",
+      "시나이",
+      "시내"
     ],
     "card_title": "시내",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -25017,7 +25071,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "시내(시나이)"
   },
   {
     "id": "P301",
@@ -25035,7 +25090,10 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "시내 반도(시나이반도)"
+      "시내 반도(시나이반도)",
+      "시내 반도(시나이 반도)",
+      "시나이 반도",
+      "시내 반도"
     ],
     "card_title": "시내 반도",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -25072,7 +25130,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_03.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "시내 반도(시나이 반도)"
   },
   {
     "id": "P302",
@@ -25207,7 +25266,8 @@
     "search_keywords": [
       "싯딤(싯팀)",
       "싯딤",
-      "Shittim"
+      "Shittim",
+      "싯팀"
     ],
     "card_title": "싯딤",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -25255,7 +25315,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_07.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "싯딤(싯팀)"
   },
   {
     "id": "P305",
@@ -25666,7 +25727,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "아리마대(아리마태아)"
+      "아리마대(아리마태아)",
+      "아리마태아",
+      "아리마대"
     ],
     "card_title": "아리마대",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -25703,7 +25766,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "아리마대(아리마태아)"
   },
   {
     "id": "P313",
@@ -25796,7 +25860,9 @@
     "place_meaning": "",
     "search_keywords": [
       "아볼로니아(아폴로니아)",
-      "Apollonia"
+      "Apollonia",
+      "아폴로니아",
+      "아볼로니아"
     ],
     "card_title": "아볼로니아",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -25843,7 +25909,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_46.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "아볼로니아(아폴로니아)"
   },
   {
     "id": "P315",
@@ -26026,7 +26093,8 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "야하스"
+      "야하스",
+      "아하스"
     ],
     "card_title": "아하스",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -26063,7 +26131,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_06.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "야하스"
   },
   {
     "id": "P319",
@@ -26081,7 +26150,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "악갓(아카드)"
+      "악갓(아카드)",
+      "아카드",
+      "악갓"
     ],
     "card_title": "악갓",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -26118,7 +26189,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_01.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "악갓(아카드)"
   },
   {
     "id": "P320",
@@ -26136,7 +26208,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "악메다(엑바타나)"
+      "악메다(엑바타나)",
+      "엑바타나",
+      "악메다"
     ],
     "card_title": "악메다",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -26173,7 +26247,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_19.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "악메다(엑바타나)"
   },
   {
     "id": "P321",
@@ -26251,7 +26326,9 @@
     "place_meaning": "",
     "search_keywords": [
       "암비볼리(암피폴리스)",
-      "Amphipolis"
+      "Amphipolis",
+      "암피폴리스",
+      "암비볼리"
     ],
     "card_title": "암비볼리",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -26298,7 +26375,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_46.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "암비볼리(암피폴리스)"
   },
   {
     "id": "P323",
@@ -26316,7 +26394,8 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "얍느엘"
+      "얍느엘",
+      "압느엘"
     ],
     "card_title": "압느엘",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -26353,7 +26432,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_20.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "얍느엘"
   },
   {
     "id": "P324",
@@ -26426,7 +26506,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "압비오 광장(아파우스 광장)"
+      "압비오 광장(아파우스 광장)",
+      "아파우스 광장",
+      "압비오 저자"
     ],
     "card_title": "압비오 저자",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -26463,7 +26545,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_48.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "압비오 광장(아파우스 광장)"
   },
   {
     "id": "P326",
@@ -26486,7 +26569,9 @@
     "place_meaning": "",
     "search_keywords": [
       "앗달리아(아탈리아)",
-      "Attalia"
+      "Attalia",
+      "아탈리아",
+      "앗달리아"
     ],
     "card_title": "앗달리아",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -26533,7 +26618,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_45.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "앗달리아(아탈리아)"
   },
   {
     "id": "P327",
@@ -26748,7 +26834,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "하살에논(하살에난)"
+      "하살에논(하살에난)",
+      "하살에난",
+      "에논"
     ],
     "card_title": "에논",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -26785,7 +26873,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "하살에논(하살에난)"
   },
   {
     "id": "P331",
@@ -27138,7 +27227,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "여아림(기럇 여아림)"
+      "여아림(기럇 여아림)",
+      "기럇 여아림",
+      "여아림"
     ],
     "card_title": "여아림",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -27175,7 +27266,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_11.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "여아림(기럇 여아림)"
   },
   {
     "id": "P337",
@@ -27195,7 +27287,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "온(헬리오폴리스)"
+      "온(헬리오폴리스)",
+      "헬리오폴리스",
+      "온"
     ],
     "card_title": "온",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -27233,7 +27327,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_01.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "온(헬리오폴리스)"
   },
   {
     "id": "P338",
@@ -27322,7 +27417,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "유대(유대아)"
+      "유대(유대아)",
+      "유대아",
+      "유대"
     ],
     "card_title": "유대",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -27359,7 +27456,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "유대(유대아)"
   },
   {
     "id": "P340",
@@ -27377,7 +27475,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "이달리아(이탈리아)"
+      "이달리아(이탈리아)",
+      "이탈리아",
+      "이달리아"
     ],
     "card_title": "이달리아",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -27414,7 +27514,8 @@
         "alternate_url": null,
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "이달리아(이탈리아)"
   },
   {
     "id": "P341",
@@ -27487,7 +27588,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "이두매(에돔)"
+      "이두매(에돔)",
+      "에돔",
+      "이두매"
     ],
     "card_title": "이두매",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -27524,7 +27627,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_43.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "이두매(에돔)"
   },
   {
     "id": "P343",
@@ -27872,7 +27976,8 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "사모드라게(트라키아)"
+      "사모드라게(트라키아)",
+      "트라키아"
     ],
     "card_title": "트라키아",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -27909,7 +28014,8 @@
         "alternate_url": null,
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "사모드라게(트라키아)"
   },
   {
     "id": "P350",
@@ -27982,7 +28088,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "트레이스 타베르네(트레이스 타베르나이)"
+      "트레이스 타베르네(트레이스 타베르나이)",
+      "트레이스 타베르나이",
+      "트레이스 타베르네"
     ],
     "card_title": "트레이스 타베르네",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -28019,11 +28127,12 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_48.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "트레이스 타베르네(트레이스 타베르나이)"
   },
   {
     "id": "P352",
-    "canonical_name": "딥사(팁사,딥사흐)",
+    "canonical_name": "팁사",
     "map_refs": [
       "BMPI-M016"
     ],
@@ -28037,7 +28146,9 @@
     "summary": "",
     "place_meaning": "",
     "search_keywords": [
-      "딥사(팁사,딥사흐)"
+      "딥사(팁사,딥사흐)",
+      "팁사",
+      "딥사흐"
     ],
     "card_title": "팁사",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -28074,7 +28185,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_16.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "딥사(팁사,딥사흐)"
   },
   {
     "id": "P353",
@@ -28258,7 +28370,7 @@
   },
   {
     "id": "P356",
-    "canonical_name": "헷(히타이트)",
+    "canonical_name": "헷",
     "map_refs": [
       "BMPI-M002"
     ],
@@ -28275,7 +28387,9 @@
     "place_meaning": "",
     "search_keywords": [
       "헷(히타이트)",
-      "헷 제국"
+      "헷 제국",
+      "히타이트",
+      "헷"
     ],
     "card_title": "헷",
     "card_subtitle": "대한성서공회 지도 표기 기반 신규 장소",
@@ -28313,7 +28427,8 @@
         "alternate_url": "https://cms.ibep-prod.com/app/uploads/sites/22/2026/03/nkt_map_02.jpg",
         "link_type": "direct_visible_on_bsk_map"
       }
-    ]
+    ],
+    "display_name": "헷(히타이트)"
   },
   {
     "id": "P357",
@@ -31577,7 +31692,9 @@
     "place_meaning": "",
     "search_keywords": [
       "야곱의 우물(수가)",
-      "Jacob's Well"
+      "Jacob's Well",
+      "수가",
+      "야곱의 우물"
     ],
     "card_title": "야곱의 우물",
     "card_subtitle": "Biblical Places 외부 지명 DB에서 추가된 장소",
@@ -31601,7 +31718,8 @@
         "source_era": "신구약",
         "source_description": "야곱이 세겜 추장에게 사서 아들 요셉에게 주었던 유서 깊은 우물로 예수님이 행로에 지쳐 앉으셨다가 사마리아 여인에게 영원한 구원의 물을 주신 수가성의 샘"
       }
-    ]
+    ],
+    "display_name": "야곱의 우물(수가)"
   },
   {
     "id": "P429",
