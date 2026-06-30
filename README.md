@@ -1,39 +1,8 @@
-# CEN BibleMaps PWA Release v1.0
+# CEN BibleMaps v1.3.6 Google Fallback Context Hotfix
 
-Map First 원칙 기반 배포용 최종 PWA입니다.
+- Google Maps fallback 검색어를 한국어 지명 단독 검색에서 성경지명+영문명+지역 힌트 방식으로 수정했습니다.
+- 예: 아벡 → Aphek biblical site Syria/Israel 계열 검색으로 오탐(카페, 상호명) 방지.
+- app.js에서 Google fallback URL을 열 때도 현재 Place 정보로 동적 보정합니다.
+- data/place-map-links-master.json의 Google fallback URL 111건도 함께 갱신했습니다.
 
-## 핵심 파일
-
-- `index.html`
-- `app.js`
-- `styles.css`
-- `manifest.webmanifest`
-- `service-worker.js`
-- `data/places-master.json`
-- `data/map-master.json`
-- `data/place-map-links-master.json`
-
-## 원칙
-
-- 지명 검색이 최우선입니다.
-- `지도보기` 버튼은 하나만 유지합니다.
-- 고해상도 URL이 있으면 자동으로 고해상도 지도를 열고, 없으면 대한성서공회 공식 gXX 지도를 엽니다.
-- 기본 지도/고해상도 지도 선택 버튼은 노출하지 않습니다.
-
-
-## BMPI Keyword v1.1
-- place-map-links-master.json replaced with BMPI-generated direct-visible links.
-- map-label-aliases.json added.
-- App search restricted to BMPI visible place labels and aliases, not people/event/summary keywords.
-
-
-## 2026-06-29 External URL Test
-- 사용자 제공 외부 지도 URL 반영: 58건
-- URL 공란 검토 목록: 46건 (`data/external-map-links-missing-url-review.csv`)
-- 최종 배포 전 실제 지도 표기 QA 필요
-
-
-## v1.3.5 Display Name Patch
-- canonical_name은 유지했습니다.
-- 검색키워드 수정내역.txt의 병기명을 display_name으로 반영했습니다.
-- PWA 화면 출력은 display_name 우선, 없으면 canonical_name으로 표시됩니다.
+업로드: 기존 파일 덮어쓰기. 특히 app.js, data/place-map-links-master.json, sw.js/service-worker.js를 교체하세요.

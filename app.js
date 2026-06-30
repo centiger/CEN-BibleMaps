@@ -142,6 +142,48 @@
     return m?.preferred_url || m?.alternate_url || m?.primary_url || m?.official_url || '';
   }
 
+  // Google fallback은 한국어 지명 단독 검색을 금지합니다.
+  // 예: "아벡" 단독 검색은 서울 카페/상호로 튀므로,
+  // "Aphek biblical site Israel"처럼 성경지명+지역 힌트를 붙여 검색합니다.
+  function hasLatin(s) { return /[A-Za-z]/.test(String(s || '')); }
+  function englishTermsForPlace(p) {
+    return compact([
+      p?.aliases,
+      p?.search_keywords,
+      arr(p?.biblical_places_source).map(x => x?.english_search_name),
+      arr(p?._sourceRecords).map(x => [x?.aliases, x?.search_keywords, arr(x?.biblical_places_source).map(y => y?.english_search_name)])
+    ]).filter(hasLatin);
+  }
+  function inferGoogleRegionHint(p) {
+    const blob = norm([p?._name, p?._canonicalName, p?.canonical_name, p?.display_name, p?.aliases, p?.search_keywords, p?.summary, p?.biblical_places_note].flat().join(' '));
+    const has = (...xs) => xs.some(x => blob.includes(norm(x)));
+    if (has('로마','이달리아','압비오','트레이스 타베르네','멜리데','수라구사','무라','라새아')) return 'Italy';
+    if (has('아덴','아테네','고린도','아가야','데살로니가','베뢰아','베레아','빌립보','네압볼리','암비볼리','아볼로니아','마게도냐','사모드라게','그레데')) return 'Greece';
+    if (has('에베소','골로새','라오디게아','히에라볼리','버가모','서머나','사데','빌라델비아','두아디라','버가','앗달리아','비시디아','안디옥','이고니온','루스드라','더베','다소','길리기아','갈라디아','갑바도기아','비두니아','본도','앗소','드로아','밀레도')) return 'Turkey';
+    if (has('다메섹','아람','수리아','시리아','하맛')) return 'Syria';
+    if (has('모압','암몬','에돔','느보','헤스본','아르논','랍바','페트라','얍복','길르앗','길르앗 라못')) return 'Jordan';
+    if (has('애굽','이집트','고센','람셋','라암셋','비돔','나일','수에즈','알렉산드리아','온','헬리오폴리스')) return 'Egypt';
+    if (has('바벨론','우르','니느웨','앗수르','앗시리아','티그리스','힛데겔','유브라데','유프라테스','메소보다미아')) return 'Iraq';
+    if (has('바사','페르시아','수산','수사','엘람','메대','악메다','엑바타나','페르세폴리스','바대','파르티아')) return 'Iran';
+    if (has('구브로','살라미','바보')) return 'Cyprus';
+    return 'Israel';
+  }
+  function googleFallbackUrlForPlace(p, l) {
+    const english = englishTermsForPlace(p);
+    const primary = english[0] || p?._canonicalName || placeName(p) || displayName(p) || l?.official_name || '';
+    const korean = p?._canonicalName || placeName(p) || displayName(p) || l?.official_name || '';
+    const region = inferGoogleRegionHint(p);
+    const query = hasLatin(primary)
+      ? `${primary} biblical site ${region}`
+      : `${korean} 성경 지명 ${region}`;
+    return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+  }
+  function linkUrlForPlace(l, p) {
+    const raw = l?.preferred_url || l?.map_url || l?.alternate_url || l?.primary_url || l?.official_url || '';
+    const isGoogle = String(l?.map_type || '').includes('google') || String(l?.source || '').includes('google') || String(raw).includes('google.com/maps');
+    return isGoogle && p ? googleFallbackUrlForPlace(p, l) : raw;
+  }
+
   // Hotfix #1: Map Trust
   // 지도보기는 반드시 해당 지명이 실제 표기된 direct link만 사용하고,
   // 여러 지도가 있으면 "범용 지도"보다 "구체 지도/고해상도 지도"를 우선한다.
@@ -346,13 +388,13 @@
   function openFirstMap(key) {
     const p = places.find(x => x._key === key);
     const link = p && trustedVisibleLinksForPlace(p)[0];
-    if (link) openUrl(linkUrl(link));
+    if (link) openUrl(linkUrlForPlace(link, p));
   }
   function openMapByIndex(key, idx) {
     const p = places.find(x => x._key === key);
     const list = p ? trustedVisibleLinksForPlace(p) : [];
     const link = list[Number(idx)];
-    if (link) openUrl(linkUrl(link));
+    if (link) openUrl(linkUrlForPlace(link, p));
   }
 
   function mapButtonsHtml(p, limit=3) {
@@ -362,7 +404,7 @@
     }
     return `<div class="map-list">${ls.slice(0,limit).map((l,i) => {
       const labels = uniq(arr(l.map_labels)).join(', ');
-      const url = linkUrl(l);
+      const url = linkUrlForPlace(l, p);
       const high = String(l.link_type || '').startsWith('external') ? '<span class="source-pill">외부지도</span>' : (l.alternate_url ? '<span class="source-pill">고해상도 기본</span>' : '<span class="source-pill">공식지도</span>');
       return `<button class="map-item" type="button" data-action="open-map-index" data-key="${esc(p._key)}" data-index="${i}">🗺 ${esc(l.map_title || l.map_id)} ${high}<small>${esc(l.map_id)} · ${esc(l.link_type || 'map_link')}</small>${labels ? `<span class="labels">지도표기: ${esc(labels)}</span>` : ''}</button>`;
     }).join('')}</div>`;
